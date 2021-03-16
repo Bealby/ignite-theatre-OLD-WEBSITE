@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash:100,200,300,400,500,600,700,800|Courgette:100,200,300,400,500,600,700,800|Roboto:100,200,300,400,500,600,700,800|Calligraffitti:100,200,300,400,500,600,700,800|Roboto:100,200,300,400,500,600,700,800');
 
 
 body{
@@ -29,12 +29,33 @@ body{
     font-size: 1.8rem;
 }
 
+/*---Headers---*/
+
+.jumbotron-title{
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.jumbotron-sub-title{
+    font-size: 1.5rem;
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 200;
+}
+
+.jumbotron-content{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
 /*---Jumbotron---*/
 
 .jumbotron {
     padding: 3rem 2rem;
     margin-bottom: 2rem;
     border-radius: .3rem;
+    background:white;
 }
 
 /*---Water Ripple---*/
