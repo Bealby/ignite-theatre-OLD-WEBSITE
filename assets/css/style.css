@@ -2,9 +2,19 @@
 body{
      position: relative;
      min-height:calc(100vh);
+     background-color:rgb(93, 148, 163, 1)
 }
+
+
+/*---Images---*/
 
 .logo{
     width:8rem;
     width:8rem;
+}
+
+/*---Navbar---*/
+
+.navbar-color{
+    background: linear-gradient(to right, rgb(125,82,102), rgb(109,134,67), rgb(151,108,4), rgb(144,66,78) ); 
 }
