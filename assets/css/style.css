@@ -4,7 +4,7 @@
 body{
      position: relative;
      min-height:calc(100vh);
-     background-color:rgb(93, 148, 163, 1);
+     background-color:rgb(93, 148, 163, 0.5);
      color:rgb(0, 0, 0, 1);
      font-family: 'Roboto', sans-serif;
      
@@ -21,7 +21,7 @@ body{
 /*---Navbar---*/
 
 .navbar-color{
-    background: linear-gradient(to right, rgb(125,82,102), rgb(109,134,67), rgb(151,108,4), rgb(144,66,78) ); 
+    background: linear-gradient(to right, rgb(255, 105, 97), rgb(255, 179, 71), rgb(253, 253, 150), rgb(119, 221, 119), rgb(152, 222, 222), rgb(177, 156, 217), rgb(255, 255, 255)); 
 }
 
 .navbar-links a{
@@ -30,3 +30,11 @@ body{
     font-size: 1.8rem;
 }
 
+/*---Jumbotron---*/
+
+.jumbotron {
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+    background-color:rgb(125, 82, 102, 0.8);
+    border-radius: .3rem;
+}
