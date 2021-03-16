@@ -1,4 +1,10 @@
 
+body{
+     position: relative;
+     min-height:calc(100vh);
+}
+
 .logo{
-    width:10%;
+    width:8rem;
+    width:8rem;
 }
