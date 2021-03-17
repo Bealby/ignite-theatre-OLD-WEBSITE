@@ -27,7 +27,16 @@ body{
     font-size: 1.8rem;
 }
 
-/*---Headers---*/
+/*---Jumbotron---*/
+
+.jumbotron {
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    background:rgb(255, 255, 255, 0.8);
+}
+
+/*---Jumbotro Headers---*/
 
 .jumbotron-title{
     font-family: 'Courgette', cursive;
@@ -47,14 +56,6 @@ body{
     font-weight: 400;
 }
 
-/*---Jumbotron---*/
-
-.jumbotron {
-    padding: 3rem 2rem;
-    margin-bottom: 2rem;
-    border-radius: .3rem;
-    background:white;
-}
 
 /*---Water Ripple---*/
 
