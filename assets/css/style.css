@@ -45,22 +45,33 @@ body{
 
 .jumbotron-title{
     font-family: 'Courgette', cursive;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 .jumbotron-sub-title{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: 'Calligraffitti', cursive;
     font-weight: 200;
 }
 
 .jumbotron-content{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
+.jumbotron-margin{
+    margin-top:0rem;
+}
+
+/*---Section Content---*/
+
+.section-content{
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
 
 /*---Water Ripple---*/
 
@@ -120,5 +131,53 @@ body{
 @media (min-width: 992px) {
     .padding-top-navbar{
         padding-top:0rem;
+    }
+}
+
+/*---Reduce jumbotron-title font size for better sizing on mb/md---*/
+
+@media (min-width: 992px) {
+    .jumbotron-title{
+        font-family: 'Courgette', cursive;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+}
+
+/*---Reduce jumbotron-sub-title font size for better sizing on mb/md---*/
+
+@media (min-width: 992px) {
+    .jumbotron-sub-title{
+        font-size: 1.7rem;
+        font-family: 'Calligraffitti', cursive;
+        font-weight: 200;
+    }
+}
+
+/*---Reduce jumbotron-content font size for better sizing on mb/md---*/
+
+@media (min-width: 992px) {
+    .jumbotron-content{
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+}
+
+/*---Reduce jumbotron-content font size for better sizing on mb/md---*/
+
+@media (min-width: 992px) {
+    .section-content{
+        font-size: 1.2rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+}
+
+/*---Reduce jumbotron-content font size for better sizing on mb/md---*/
+
+@media (min-width: 575px) {
+    .jumbotron-margin{
+        margin-top:5rem;
     }
 }
