@@ -1,115 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Calligraffitti&family=Courgette&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-body{
-     position: relative;
-     min-height:calc(100vh);
-     color:rgb(0, 0, 0, 1);
-     font-family: 'Roboto', sans-serif;
-     
+body {
+	position: relative;
+	min-height: calc(100vh);
+	color: rgb(0, 0, 0, 1);
+	font-family: 'Roboto', sans-serif;
 }
+
 
 /*---Images---*/
 
-.logo{
-    width:5rem;
+.logo {
+	width: 5rem;
 }
+
 
 /*---Navbar---*/
 
-.navbar-color{
-    background: linear-gradient(to right, rgb(255, 105, 97), rgb(255, 179, 71), rgb(253, 253, 150), rgb(119, 221, 119), rgb(152, 222, 222), rgb(177, 156, 217)); 
+.navbar-color {
+	background: linear-gradient(to right, rgb(255, 105, 97), rgb(255, 179, 71), rgb(253, 253, 150), rgb(119, 221, 119), rgb(152, 222, 222), rgb(177, 156, 217));
 }
 
-.navbar-links a{
-    color: rgb(0,0,0,1);
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 1.3rem;
+.navbar-links a {
+	color: rgb(0, 0, 0, 1);
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 1.3rem;
 }
 
-.padding-top-navbar{
-    padding-top:1.5rem;
+.padding-top-navbar {
+	padding-top: 1.5rem;
 }
+
 
 /*---Jumbotron---*/
 
 .jumbotron {
-    padding: 3rem 2rem;
-    margin-bottom: 2rem;
-    border-radius: .3rem;
-    background:rgb(255, 255, 255, 0);
+	padding: 3rem 2rem;
+	margin-bottom: 2rem;
+	border-radius: .3rem;
+	background: rgb(255, 255, 255, 0);
 }
+
 
 /*---Jumbotro Headers---*/
 
-.jumbotron-title{
-    font-family: 'Courgette', cursive;
-    font-size: 2rem;
-    font-weight: 600;
+.jumbotron-title {
+	font-family: 'Courgette', cursive;
+	font-size: 2rem;
+	font-weight: 600;
 }
 
-.jumbotron-sub-title{
-    font-size: 1.3rem;
-    font-family: 'Calligraffitti', cursive;
-    font-weight: 200;
+.jumbotron-sub-title {
+	font-size: 1.3rem;
+	font-family: 'Calligraffitti', cursive;
+	font-weight: 200;
 }
 
-.jumbotron-content{
-    font-size: 1.3rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+.jumbotron-content {
+	font-size: 1.3rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 
-.jumbotron-margin{
-    margin-top:0rem;
+.jumbotron-margin {
+	margin-top: 0rem;
 }
+
 
 /*---Page Headers---*/
 
-.page-headers{
-    color: rgb(0,0,0,1);
-    font-family: 'Calligraffitti', cursive;
-    font-size: 3rem;
+.page-headers {
+	color: rgb(0, 0, 0, 1);
+	font-family: 'Calligraffitti', cursive;
+	font-size: 3rem;
 }
+
 
 /*---Section Content---*/
 
-.section-content{
-    font-size: 1.1rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+.section-content {
+	font-size: 1.1rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
+
 
 /*---Links/ Hover---*/
 
-.actor-links a{
-    text-decoration:none;
-    color:rgb(0, 0, 0, 1);
+.actor-links a {
+	text-decoration: none;
+	color: rgb(0, 0, 0, 1);
 }
+
 
 /*---Water Ripple---*/
 
-.full-landing-image
-{
-  background: url('/assets/images/water.png') no-repeat center;
-  background-size: cover;
+.full-landing-image {
+	background: url('/assets/images/water.png') no-repeat center;
+	background-size: cover;
 }
+
 
 /*---Footer---*/
 
-#wrapper{
-    position: absolute;
-    bottom: 0;
-    width:100%;
-    height:3rem;
+#wrapper {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 3rem;
 }
 
 .copyright {
 	text-align: center;
-    font-size: 0.7rem;
-    font-weight:400;
+	font-size: 0.7rem;
+	font-weight: 400;
 	font-family: 'Source Serif Pro', serif;
 	color: rgb(0, 0, 0, 1) !important;
 }
+
 
 /*---Block Divider---*/
 
@@ -117,78 +124,87 @@ body{
 	margin-bottom: 7rem;
 }
 
+
 /*---Media Queries---*/
+
 
 /*---Reduce size of logo in navbar for better sizing for mb/md---*/
 
 @media (min-width: 992px) {
-    .logo{
-        width:9rem;
-    }
+	.logo {
+		width: 9rem;
+	}
 }
+
 
 /*---Recue size of font for navbar links for better sizing for mb/md---*/
 
 @media (min-width: 992px) {
-    .navbar-links a{
-        color: rgb(0,0,0,1);
-        font-family: 'Berkshire Swash', cursive;
-        font-size: 1.8rem;
-    }
+	.navbar-links a {
+		color: rgb(0, 0, 0, 1);
+		font-family: 'Berkshire Swash', cursive;
+		font-size: 1.8rem;
+	}
 }
+
 
 /*---Padding top for <a> tag in navbar for better top spacing in collapse feature---*/
 
 @media (min-width: 992px) {
-    .padding-top-navbar{
-        padding-top:0rem;
-    }
+	.padding-top-navbar {
+		padding-top: 0rem;
+	}
 }
+
 
 /*---Reduce jumbotron-title font size for better sizing on mb/md---*/
 
 @media (min-width: 992px) {
-    .jumbotron-title{
-        font-family: 'Courgette', cursive;
-        font-size: 3rem;
-        font-weight: 600;
-    }
+	.jumbotron-title {
+		font-family: 'Courgette', cursive;
+		font-size: 3rem;
+		font-weight: 600;
+	}
 }
+
 
 /*---Reduce jumbotron-sub-title font size for better sizing on mb/md---*/
 
 @media (min-width: 992px) {
-    .jumbotron-sub-title{
-        font-size: 1.7rem;
-        font-family: 'Calligraffitti', cursive;
-        font-weight: 200;
-    }
+	.jumbotron-sub-title {
+		font-size: 1.7rem;
+		font-family: 'Calligraffitti', cursive;
+		font-weight: 200;
+	}
 }
+
 
 /*---Reduce jumbotron-content font size for better sizing on mb/md---*/
 
 @media (min-width: 992px) {
-    .jumbotron-content{
-        font-size: 1.5rem;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-    }
+	.jumbotron-content {
+		font-size: 1.5rem;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+	}
 }
+
 
 /*---Reduce jumbotron-content font size for better sizing on mb/md---*/
 
 @media (min-width: 992px) {
-    .section-content{
-        font-size: 1.2rem;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-    }
+	.section-content {
+		font-size: 1.2rem;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+	}
 }
+
 
 /*---Reduce margin-top for mb for better spacing/ viewing---*/
 
 @media (min-width: 575px) {
-    .jumbotron-margin{
-        margin-top:5rem;
-    }
+	.jumbotron-margin {
+		margin-top: 5rem;
+	}
 }
