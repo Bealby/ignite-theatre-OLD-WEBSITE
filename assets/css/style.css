@@ -65,6 +65,14 @@ body{
     margin-top:0rem;
 }
 
+/*---Page Headers---*/
+
+.page-headers{
+    color: rgb(0,0,0,1);
+    font-family: 'Calligraffitti', cursive;
+    font-size: 3rem;
+}
+
 /*---Section Content---*/
 
 .section-content{
