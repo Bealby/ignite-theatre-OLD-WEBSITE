@@ -73,6 +73,13 @@ body{
     font-weight: 400;
 }
 
+/*---Links/ Hover---*/
+
+.actor-links a{
+    text-decoration:none;
+    color:rgb(0, 0, 0, 1);
+}
+
 /*---Water Ripple---*/
 
 .full-landing-image
@@ -174,7 +181,7 @@ body{
     }
 }
 
-/*---Reduce jumbotron-content font size for better sizing on mb/md---*/
+/*---Reduce margin-top for mb for better spacing/ viewing---*/
 
 @media (min-width: 575px) {
     .jumbotron-margin{
