@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Calligraffitti&family=Courgette&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
 	position: relative;
 	min-height: calc(100vh);
-	color: rgb(0, 0, 0, 1);
+	color: rgb(255, 255, 255);
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -10,18 +11,18 @@ body {
 /*---Images---*/
 
 .logo {
-	width: 5rem;
+	width: 13rem;
 }
 
 
 /*---Navbar---*/
 
 .navbar-color {
-	background: linear-gradient(to right, rgb(255, 105, 97), rgb(255, 179, 71), rgb(253, 253, 150), rgb(119, 221, 119), rgb(152, 222, 222), rgb(177, 156, 217));
+	background: rgb(0, 0, 0, 1);
 }
 
 .navbar-links a {
-	color: rgb(0, 0, 0, 1);
+	color: rgb(255, 255, 255);
 	font-family: 'Berkshire Swash', cursive;
 	font-size: 1.3rem;
 }
@@ -132,7 +133,7 @@ body {
 
 @media (min-width: 992px) {
 	.logo {
-		width: 9rem;
+		width: 15rem;
 	}
 }
 
@@ -141,7 +142,7 @@ body {
 
 @media (min-width: 992px) {
 	.navbar-links a {
-		color: rgb(0, 0, 0, 1);
+		color: rgb(255, 255, 255);
 		font-family: 'Berkshire Swash', cursive;
 		font-size: 1.8rem;
 	}
