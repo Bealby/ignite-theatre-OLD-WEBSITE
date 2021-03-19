@@ -7,6 +7,29 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+/*---Header---*/
+
+header {
+    width: 100%;
+    height:px;
+    position: relative;
+    overflow: hidden;
+    padding-right:0rem;
+    padding-left:0rem;
+}
+
+
+header nav:after {
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 50%; 
+    transform: translate(-50%, -50%) rotate(180deg); 
+    height: 1200px; 
+    width: 1200px; 
+    border-radius: 50%; 
+    background-color: green;
+}
 
 /*---Images---*/
 
