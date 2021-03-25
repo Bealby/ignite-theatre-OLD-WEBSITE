@@ -4,7 +4,9 @@
 body {
 	position: relative;
 	min-height: calc(100vh);
-	color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background: url("/assets/images/theatre-background.png") no-repeat center center fixed;
+    background-size: cover;
 }
 
 header {
@@ -23,8 +25,9 @@ header nav:after {
     height: 1200px; 
     width: 2500px; 
     border-radius: 50%; 
-    background-color: rgb(0, 0, 0, 0.2);
+    background-color: rgb(0, 0, 0, 0.6);
 }
+
 
 header ul {
     position: relative;
@@ -34,6 +37,16 @@ header ul {
     text-align: center;
     list-style: none;
     z-index:999;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
 }
 
 header ul li { 
@@ -88,4 +101,3 @@ header ul li a {
 .header-logo img {
     height:120px;
 }
-
