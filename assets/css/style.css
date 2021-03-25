@@ -1,23 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Calligraffitti&family=Courgette&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 body {
 	position: relative;
 	min-height: calc(100vh);
 	color: rgb(255, 255, 255);
-	font-family: 'Roboto', sans-serif;
 }
-
-/*---Header---*/
 
 header {
     width: 100%;
     height:500px;
     position: relative;
     overflow: hidden;
-    padding-right:0rem;
-    padding-left:0rem;
 }
-
 
 header nav:after {
     content: '';
@@ -31,8 +26,66 @@ header nav:after {
     background-color: rgb(0, 0, 0, 0.2);
 }
 
-/*---Images---*/
-
-.logo {
-	width: 8rem;
+header ul {
+    position: relative;
+    top: 20px;
+    margin:0 auto;
+    display:block;
+    text-align: center;
+    list-style: none;
+    z-index:999;
 }
+
+header ul li { 
+    display: inline-block;
+    width:18%;
+    position: relative;
+}
+
+header ul li a { 
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    display:inline-block;
+    font-weight:700;
+    font-size: 20px;
+    position: relative;
+    color:#fff;
+    text-decoration: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.nav-about {
+    top:25px;
+    transform: rotate(-6deg);
+}
+
+.nav-home {
+    top:25px;
+    transform: rotate(6deg);
+}
+
+.nav-tickets {
+    top:10px;
+    transform: rotate(-3deg);
+}
+
+.nav-gallery {
+    top:10px;
+    transform: rotate(3deg);
+}
+
+.header-logo {
+    top:-25px;
+    left:0;
+    right:0;
+    position:absolute;
+}
+
+.header-logo img {
+    height:120px;
+}
+
