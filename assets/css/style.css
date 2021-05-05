@@ -102,3 +102,71 @@ header ul li a {
 .header-logo img {
     height:160px;
 }
+
+'/*---Navbar Overlay---*/
+ .menu-icon {
+     color: rgb(255, 255, 255) !important;
+     font-size: 40px;
+     cursor: pointer;
+     background-color: rgb(109, 189, 174);
+}
+ .menu-container {
+     height: 0%;
+     width: 100%;
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     z-index: 1;
+     background: rgb(109, 189, 174, 1);
+     overflow: hidden;
+     transition: 0.5s ease-in-out;
+}
+ .menu-content {
+     position: relative;
+     top: 25%;
+     width: 100%;
+     text-align: center;
+}
+ .menu-content a {
+     padding: 16px;
+     text-decoration: none;
+     font-size: 30px;
+     color: white;
+     display: block;
+     font-family: roboto, sans-serif;
+     transition: .3s ease-in-out;
+     font-weight: 700;
+     letter-spacing: 2px;
+}
+ .menu-content-intro {
+     padding: 16px;
+     text-decoration: none;
+     font-size: 30px;
+     display: block;
+     font-family: roboto, sans-serif;
+     transition: .3s ease-in-out;
+     font-weight: 700;
+     margin-top: 3rem;
+     letter-spacing: 2px;
+}
+ .menu-content-intro-links a {
+     padding: 9px;
+     text-decoration: none;
+     display: block;
+     transition: .3s ease-in-out;
+}
+ .menu-content a:hover {
+     background-color: #1b998b;
+}
+ .menu-content-intro-links a:hover {
+     background-color: #1b998b;
+}
+ .menu-container .closebtn {
+     position: absolute;
+     top: 24px;
+     right: 48px;
+     font-size: 50px;
+     color: white;
+     z-index: 1;
+     cursor: pointer;
+}
