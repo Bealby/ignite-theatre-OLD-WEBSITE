@@ -23,8 +23,8 @@ header nav:after {
     top: -100%;
     left: 50%; 
     transform: translate(-50%, -50%) rotate(180deg); 
-    height: 4244px; 
-    width: 4083px; 
+    height: 4250px; 
+    width: 5500px; 
     border-radius: 50%; 
     background-color: rgb(0, 0, 0, 0.6);
 }
@@ -73,23 +73,23 @@ header ul li a {
 }
 
 .nav-about {
-    top:25px;
-    transform: rotate(9deg);
+    top:40px;
+    transform: rotate(6deg);
 }
 
 .nav-home {
-    top:56px;
+    top:62px;
     transform: rotate(6deg);
 }
 
 .nav-tickets {
-    top:50px;
-    transform: rotate(-6deg);
+    top:62px;
+    transform: rotate(-3deg);
 }
 
 .nav-gallery {
-    top:26px;
-    transform: rotate(-10deg);
+    top:40px;
+    transform: rotate(-6deg);
 }
 
 .header-logo {
@@ -170,3 +170,36 @@ header ul li a {
      z-index: 1;
      cursor: pointer;
 }
+
+
+/*---Increase image size for smaller devices for better viewing---*/
+@media(min-width:2200px) {
+.nav-about {
+    top:13px;
+    transform: rotate(9deg);
+    }
+}
+
+/*---Increase image size for smaller devices for better viewing---*/
+@media(min-width:2200px) {
+.nav-home {
+    top:50px;
+    transform: rotate(6deg);
+    }
+}
+
+/*---Increase image size for smaller devices for better viewing---*/
+@media(min-width:2200px) {
+.nav-tickets {
+    top:50px;
+    transform: rotate(-6deg);
+    }
+}
+
+/*---Increase image size for smaller devices for better viewing---*/
+@media(min-width:2200px) {
+.nav-gallery {
+    top:13px;
+    transform: rotate(-9deg);
+    }
+}   
