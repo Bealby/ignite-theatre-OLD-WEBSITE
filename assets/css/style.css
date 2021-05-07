@@ -6,7 +6,7 @@ body {
 	min-height: calc(100vh);
     background: rgb(0, 0, 0, 1);
     font-family: 'Rammetto One', cursive;
-    color:rgb(255,255,255,1);
+    color:rgb(0,0,0,1);
 }
 
 /*---Header (Links)---*/
@@ -210,12 +210,12 @@ main ul li a {
 
 /*---Text/ Content---*/
 
-.text-box{
-    background:rgb(0, 0, 0, 0.6)    
+.text-box-inside{
+    background:rgb(255, 255, 255, 1)    
 }
 
-p{
-    font-family: 'Lato', sans-serif;
+.text-box-outside{
+        background:rgb(0, 0, 0, 0.6)
 }
 
 /*---Block content for main section for better/ readible content below nav bar---*/
