@@ -172,7 +172,7 @@ header ul li a {
 }
 
 
-/*---Increase image size for smaller devices for better viewing---*/
+/*---Nav About link positioning for sm/md/lg for better alignment---*/
 @media(min-width:2200px) {
 .nav-about {
     top:13px;
@@ -180,7 +180,7 @@ header ul li a {
     }
 }
 
-/*---Increase image size for smaller devices for better viewing---*/
+/*---Nav Home link positioning for sm/md/lg for better alignment---*/
 @media(min-width:2200px) {
 .nav-home {
     top:50px;
@@ -188,7 +188,7 @@ header ul li a {
     }
 }
 
-/*---Increase image size for smaller devices for better viewing---*/
+/*---Nav Tickets link positioning for sm/md/lg for better alignment---*/
 @media(min-width:2200px) {
 .nav-tickets {
     top:50px;
@@ -196,7 +196,7 @@ header ul li a {
     }
 }
 
-/*---Increase image size for smaller devices for better viewing---*/
+/*---Nav Gallery link positioning for sm/md/lg for better alignment---*/
 @media(min-width:2200px) {
 .nav-gallery {
     top:13px;
