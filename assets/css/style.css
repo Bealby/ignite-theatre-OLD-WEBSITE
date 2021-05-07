@@ -85,12 +85,12 @@ main ul li a {
     transform: rotate(6deg);
 }
 
-.nav-home {
+.nav-cast {
     top:62px;
     transform: rotate(6deg);
 }
 
-.nav-tickets {
+.nav-eat-parking {
     top:62px;
     transform: rotate(-3deg);
 }
@@ -229,7 +229,7 @@ main ul li a {
 
 /*---Nav Home link positioning for sm/md/lg for better alignment---*/
 @media(min-width:2200px) {
-.nav-home {
+.nav-cast {
     top:50px;
     transform: rotate(6deg);
     }
@@ -237,7 +237,7 @@ main ul li a {
 
 /*---Nav Tickets link positioning for sm/md/lg for better alignment---*/
 @media(min-width:2200px) {
-.nav-tickets {
+.nav-eat-parking {
     top:50px;
     transform: rotate(-6deg);
     }
