@@ -201,6 +201,7 @@ main ul li a {
      cursor: pointer;
 }
 
+/*---Block content for main section for better/ readible content below nav bar---*/
 
 .block-container{
     margin-top: 30rem;
