@@ -124,6 +124,10 @@ main ul li a {
     height:119px;
 }
 
+.poster{
+    width:30%;
+}
+
 /*---Navbar Overlay---*/
 
  .menu-icon {
@@ -204,7 +208,7 @@ main ul li a {
 /*---Block content for main section for better/ readible content below nav bar---*/
 
 .block-container{
-    margin-top: 30rem;
+    margin-top: 15rem;
 }
 
 
