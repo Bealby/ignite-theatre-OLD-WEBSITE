@@ -126,9 +126,6 @@ main ul li a {
     height:119px;
 }
 
-.poster{
-    width:30%;
-}
 
 /*---Navbar Overlay---*/
 
@@ -211,11 +208,17 @@ main ul li a {
 /*---Text/ Content---*/
 
 .text-box-inside{
-    background:rgb(255, 255, 255, 1)    
+    background:rgb(255, 255, 255, 1)
 }
 
 .text-box-outside{
         background:rgb(0, 0, 0, 0.6)
+}
+
+.content{
+    font-family: 'Lato', sans-serif;
+    font-size:1.1rem;
+    font-weight:400;
 }
 
 /*---Block content for main section for better/ readible content below nav bar---*/
