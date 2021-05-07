@@ -109,6 +109,17 @@ header ul li a {
     height:160px;
 }
 
+.header-logo-sm {
+    top:26px;
+    left:0;
+    right:0;
+    position:absolute;
+}
+
+.header-logo-sm img {
+    height:119px;
+}
+
 /*---Navbar Overlay---*/
 
  .menu-icon {
