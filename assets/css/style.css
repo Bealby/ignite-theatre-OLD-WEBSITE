@@ -233,6 +233,18 @@ main ul li a {
     color:rgb(181,189,191, 1)
 }
 
+/*---Font Awesome Icons---*/
+
+.fa-theater-masks {
+    color: rgb(128, 0, 0, 1);
+    font-size:2rem;
+}
+
+.fa-users{
+    color: rgb(128, 0, 0, 1);
+    font-size:2rem;
+}
+
 /*---Block content for main section for better/ readible content below nav bar---*/
 
 .block-container{
