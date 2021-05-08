@@ -261,6 +261,16 @@ main ul li a {
     font-size:2rem;
 }
 
+.fa-video{
+    color: rgb(128, 0, 0, 1);
+    font-size:2rem;
+}
+
+.fa-question{
+    color: rgb(128, 0, 0, 1);
+    font-size:2rem;
+}
+
 /*---Block content for main section for better/ readible content below nav bar---*/
 
 .block-container{
