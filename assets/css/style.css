@@ -222,7 +222,8 @@ main ul li a {
 .content{
     font-family: 'Lato', sans-serif;
     font-size:1rem;
-    font-weight:400;
+    font-weight:700;
+    text-align:justify;
 }
 
 /*---Block content for main section for better/ readible content below nav bar---*/
