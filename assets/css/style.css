@@ -102,7 +102,7 @@ main ul li a {
     transform: rotate(-6deg);
 }
 
-/*---Logo---*/
+/*---Logo( Poster---*/
 
 .header-logo {
     top:-1px;
@@ -124,6 +124,10 @@ main ul li a {
 
 .header-logo-sm img {
     height:119px;
+}
+
+.poster{
+    max-width: 80%;
 }
 
 
@@ -208,7 +212,7 @@ main ul li a {
 /*---Text/ Content---*/
 
 .text-box-inside{
-    background:rgb(255, 255, 255, 1)
+    background:rgb(0, 0, 0, 1)
 }
 
 .text-box-outside{
