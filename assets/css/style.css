@@ -11,7 +11,7 @@ body {
 
 main {
     width: 100%;
-    height:  2000px;
+    height:  6000px;
     position: relative;
     overflow: hidden;
     background: url("/assets/images/theatre-background.png") no-repeat center center fixed;
@@ -25,7 +25,7 @@ main nav:after {
     top: -100%;
     left: 50%; 
     transform: translate(-50%, -50%) rotate(180deg); 
-    height: 4250px; 
+    height: 7250px; 
     width: 5500px; 
     border-radius: 50%; 
     background-color: rgb(0, 0, 0, 0.6);
@@ -126,6 +126,10 @@ main ul li a {
 
 .poster{
     max-width: 80%;
+}
+
+.profile{
+    max-width: 50%;
 }
 
 
@@ -267,6 +271,11 @@ main ul li a {
 }
 
 .fa-question{
+    color: rgb(128, 0, 0, 1);
+    font-size:2rem;
+}
+
+.fa-user{
     color: rgb(128, 0, 0, 1);
     font-size:2rem;
 }
