@@ -251,6 +251,14 @@ main ul li a:hover {
     color:rgb(181,189,191, 1)
 }
 
+/*---Margin/ Padding---*/
+
+.text-margin{
+    margin-right:0.5rem;
+    margin-left:0.5rem;
+}
+
+
 /*---Font Awesome Icons---*/
 
 .fa-theater-masks {
@@ -342,5 +350,17 @@ main ul li a:hover {
         padding-bottom:1.5rem;
         margin-left:1.5rem;
         margin-right:1.5rem;
+    }
 }
+
+
+
+
+/*---Reduce MR ML for text content for better spacing and reading for sm"---*/
+
+@media(min-width:767px) {
+.text-margin{
+    margin-right:1.5rem;
+    margin-left:1.5rem;
+    }
 }
