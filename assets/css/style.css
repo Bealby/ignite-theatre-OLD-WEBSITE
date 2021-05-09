@@ -265,6 +265,10 @@ main ul li a:hover {
     margin-left:0.5rem;
 }
 
+.profile-text-padding{
+    padding-left:0rem;
+    padding-right:0rem;
+}
 
 /*---Font Awesome Icons---*/
 
@@ -527,5 +531,14 @@ main ul li a:hover {
 @media(min-width:1200px) {
 .block-container{
     margin-top: 15rem;
+    }
+}
+
+/*---Reduce MR ML for text content for better spacing and reading for sm---*/
+
+@media(min-width:767px) {
+.profile-text-padding{
+    padding-left:3.5rem;
+    padding-right:3.5rem;
     }
 }
