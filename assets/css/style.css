@@ -240,7 +240,7 @@ main ul li a:hover {
 .content-h{
     font-family: 'Rammetto One', cursive;
     font-size:1.25rem;
-    text-align:justify;
+    text-align:left;
     color:rgb(181,189,191, 1)
 }
 
@@ -294,6 +294,12 @@ main ul li a:hover {
 .fa-user{
     color: rgb(128, 0, 0, 1);
     font-size:2rem;
+}
+
+.fa-circle{
+    color: rgb(128, 0, 0, 1);
+    font-size:0.7rem;
+    vertical-align: middle;
 }
 
 /*---Block content for main section for better/ readible content below nav bar---*/

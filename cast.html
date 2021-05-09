@@ -1,246 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- jQuery Ripples JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
 
-    <!-- jQuery Ripples JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+        <link rel="styles-heet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico" />
+        <title>Ignite Theatre</title>
+    </head>
 
+    <body>
+        <div class="container-fluid pl-0 pr-0">
+            <main>
+                <!---Mobile Toggle-->
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-        type="text/css" />
-    <link rel="styles-heet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico" />
-    <title>Ignite Theatre</title>
-</head>
-
-<body>
-
-    <div class="container-fluid pl-0 pr-0">
-
-        <main>
-
-            <!---Mobile Toggle-->
-
-            <div class="container-fluid d-xl-none">
-                <div class="row menu-icon text-center">
-                    <div class="col header-logo-sm">
-                        <span onclick="openMenu()"><img src="assets/images/logo.png" class="img-fluid"></span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="menu-container" id="navbar">
-                <span class="closebtn" onclick="closeMenu()">&times;</span>
-                <div class="menu-content">
-                    <a href="index.html" class="text-uppercase">About</a>
-                    <a href="cast.html" class="text-uppercase">Cast</a>
-                    <a href="eat-parking.html" class="text-uppercase">Info</a>
-                    <a href="gallery.html" class="text-uppercase">Gallery</a>
-                </div>
-            </div>
-
-            <!---Navbar-->
-            <nav class="d-none d-xl-block">
-                <ul>
-                    <li>
-                        <a class="nav-about" href="index.html">About</a>
-                    </li>
-                    <li>
-                        <a class="nav-cast" href="cast.html">Cast</a>
-                    </li>
-                    <li>
-                        <a class="header-logo" href="index.html">
-                            <img src="assets/images/logo.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a class="nav-eat-parking" href="eat-parking.html">Info</a>
-                    </li>
-                    <li>
-                        <a class="nav-gallery" href="gallery.html">Gallery</a>
-                    </li>
-                </ul>
-
-            </nav>
-            <!---Block Container-->
-            <div class="container-fluid">
-                <div class="row block-container">
-                    <div class="col-6">
-
-                    </div>
-                </div>
-            </div>
-
-            <!---Main Content-->
-            <section class="container-fluid pl-0 pr-0">
-                <div class="row text-box-outside">
-                    <div class="col">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="row text-margin mt-4 mb-0">
-                                    <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
-                                        <p class="content-h"><i class="fas fa-users"></i>&emsp;Cast</p>
-                                        <p class="content-h">In order of appearance:</p>
-                                        <p class="content-p">Mary - Georgie</p>
-                                        <p class="content-p">Vi - Beth Gardner</p>
-                                        <p class="content-p">Teresa - Lisa Fairfield</p>
-                                        <p class="content-p">Catherine	Suzanne Sharples</p>
-                                        <p class="content-p">Mike - Daniel Marot</p>
-                                        <p class="content-p">Frank - Trevor Scales</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="row text-margin mt-4 mb-0">
-                                    <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
-                                        <p class="content-h"><i class="fas fa-video"></i>&emsp;Crew</p>
-                                        <p class="content-p">Director - Vicki Hougham</p>
-                                        <p class="content-p">Producers - Lisa Fairfield and Suzanne Sharples</p>
-                                        <p class="content-p">Lighting & Sound </p>
-                                        <p class="content-p">Bar - Chris</p>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="container-fluid d-xl-none">
+                    <div class="row menu-icon text-center">
+                        <div class="col header-logo-sm">
+                            <span onclick="openMenu()"><img src="assets/images/logo.png" class="img-fluid" /></span>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="row text-margin mt-4 mb-0">
-                                    <p class="content-h"><i class="fas fa-user"></i>&emsp;Biographies</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="row text-margin mt-4 mb-0">
+                    </div>
+                </div>
+
+                <div class="menu-container" id="navbar">
+                    <span class="closebtn" onclick="closeMenu()">&times;</span>
+                    <div class="menu-content">
+                        <a href="index.html" class="text-uppercase">About</a>
+                        <a href="cast.html" class="text-uppercase">Cast</a>
+                        <a href="eat-parking.html" class="text-uppercase">Info</a>
+                        <a href="gallery.html" class="text-uppercase">Gallery</a>
+                    </div>
+                </div>
+
+                <!---Navbar-->
+                <nav class="d-none d-xl-block">
+                    <ul>
+                        <li>
+                            <a class="nav-about" href="index.html">About</a>
+                        </li>
+                        <li>
+                            <a class="nav-cast" href="cast.html">Cast</a>
+                        </li>
+                        <li>
+                            <a class="header-logo" href="index.html">
+                                <img src="assets/images/logo.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-eat-parking" href="eat-parking.html">Info</a>
+                        </li>
+                        <li>
+                            <a class="nav-gallery" href="gallery.html">Gallery</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!---Block Container-->
+                <div class="container-fluid">
+                    <div class="row block-container">
+                        <div class="col-6"></div>
+                    </div>
+                </div>
+
+                <!---Main Content-->
+                <section class="container-fluid pl-0 pr-0">
+                    <div class="row text-box-outside">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-lg-6">
                                     <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
-                                         <img src="assets/images/profile/lisa-fairfield.png" class="img-fluid profile"
-                                            alt="Lisa Faifield">
-                                        <p class="content-h">Georgie</p>
-                                        <p class="content-p">Georgie, playing Mary, wants to thank you for coming and is
-                                            looking forward to sharing this story with you.</p>
+                                        <div class="row">
+                                            <div class="col-6 offset-3">
+                                                <p class="content-h mb-4"><i class="fas fa-users"></i>&emsp;Cast</p>
+                                                <p class="content-p text-uppercase mb-4"><strong>In order of appearance:</strong></p>
+                                                <p class="content-p my-b"><i class="fas fa-circle"></i>&emsp;<strong>Mary</strong>&emsp;-&emsp;<i>Georgie</i></p>
+                                                <p class="content-p my-b"><i class="fas fa-circle"></i>&emsp;<strong>Vi</strong>&emsp;-&emsp;<i>Beth Gardner</i></p>
+                                                <p class="content-p my-b"><i class="fas fa-circle"></i>&emsp;<strong>Teresa</strong>&emsp;-&emsp;<i>Lisa Fairfield</i></p>
+                                                <p class="content-p my-b"><i class="fas fa-circle"></i>&emsp;<strong>Catherine</strong>&emsp;-&emsp;<i>Suzanne Sharples</i></p>
+                                                <p class="content-p my-b"><i class="fas fa-circle"></i>&emsp;<strong>Mike</strong>&emsp;-&emsp;<i>Daniel Marot</i></p>
+                                                <p class="content-p my-b"><i class="fas fa-circle"></i>&emsp;<strong>Frank</strong>&emsp;-&emsp;<i>Trevor Scales</i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
+                                        <div class="row">
+                                            <div class="col-6 offset-3">
+                                                <p class="content-h mb-4"><i class="fas fa-video"></i>&emsp;Crew</p>
+                                                <p class="content-p my-b"><i class="fas fa-circle"></i>&emsp;<strong>Director</strong>&emsp;-&emsp;<i>Vicki Hougham</i></p>
+                                                <p class="content-p my-b text-left"><i class="fas fa-circle"></i>&emsp;<strong>Producers</strong>&emsp;-&emsp;<i>L.Fairfield and S.Sharples</i></p>
+                                                <p class="content-p my-b"><i class="fas fa-circle"></i>&emsp;<strong>Lighting & Sound</strong>&emsp;-&emsp;<i></i></p>
+                                                <p class="content-p my-b"><i class="fas fa-circle"></i>&emsp;<strong>Bar</strong>&emsp;-&emsp;<i>Chris</i></p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="row text-margin mt-4 mb-0">
-                                    <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
-                                        <img src="assets/images/profile/beth-gardner.png" class="img-fluid profile"
-                                            alt="Beth Gardner">
-                                        <p class="content-h">Beth Gardner</p>
-                                        <p class="content-p">Beth moved back to Sussex in 2017 with a desire to rekindle
-                                            her love of acting. She has most recently appeared in The Hypochondriac
-                                            (2019) and Rumours (2018), both with the Forest Row Players. Vi is her first
-                                            role playing the part of a mother.</p>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="row text-margin mt-4 mb-0">
+                                        <p class="content-h"><i class="fas fa-user"></i>&emsp;Biographies</p>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="row text-margin mt-4 mb-0">
-                                    <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
-                                        <img src="assets/images/profile/lisa-fairfield.png" class="img-fluid profile"
-                                            alt="Lisa Faifield">
-                                        <p class="content-h">Lisa Fairfield</p>
-                                        <p class="content-p">Beth moved back to Sussex in 2017 with a desire to rekindle
-                                            her love of acting. She has most recently appeared in The Hypochondriac
-                                            (2019) and Rumours (2018),</p>
-                                        <a href="www.lisafairfield.com">Website</a>
+                                <div class="col-lg-6">
+                                    <div class="row text-margin mt-4 mb-0">
+                                        <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
+                                            <img src="assets/images/profile/lisa-fairfield.png" class="img-fluid profile" alt="Lisa Faifield" />
+                                            <p class="content-h">Georgie</p>
+                                            <p class="content-p">Georgie, playing Mary, wants to thank you for coming and is looking forward to sharing this story with you.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="row text-margin mt-4 mb-0">
-                                    <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
-                                        <img src="assets/images/profile/suzanne-sharples.png" class="img-fluid profile"
-                                            alt="Suzanne Sharples">
-                                        <p class="content-h">Suzanne Sharples</p>
-                                        <p class="content-p">Suzanne is delighted to be back on the stage after a 15
-                                            year hiatus; playing the part of Catherine. Suzanne is also the co-producer,
-                                            and hopes you enjoy the show.</p>
+                                <div class="col-lg-6">
+                                    <div class="row text-margin mt-4 mb-0">
+                                        <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
+                                            <img src="assets/images/profile/beth-gardner.png" class="img-fluid profile" alt="Beth Gardner" />
+                                            <p class="content-h">Beth Gardner</p>
+                                            <p class="content-p">
+                                                Beth moved back to Sussex in 2017 with a desire to rekindle her love of acting. She has most recently appeared in The Hypochondriac (2019) and Rumours (2018), both with the Forest Row Players.
+                                                Vi is her first role playing the part of a mother.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="row text-margin mt-4 mb-0">
-                                    <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
-                                        <img src="assets/images/profile/daniel-marot.png" class="img-fluid profile"
-                                            alt="Daniel Marot">
-                                        <p class="content-h">Daniel Marot</p>
-                                        <p class="content-p">Beth moved back to Sussex in 2017 with a desire to rekindle
-                                            her love of acting. She has most recently appeared in The Hypochondriac
-                                            (2019) and Rumours (2018),</p>
-                                        <a href="https://www.spotlight.com/interactive/cv/8290-3492-0586 ">Website</a>
+                                <div class="col-lg-6">
+                                    <div class="row text-margin mt-4 mb-0">
+                                        <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
+                                            <img src="assets/images/profile/lisa-fairfield.png" class="img-fluid profile" alt="Lisa Faifield" />
+                                            <p class="content-h">Lisa Fairfield</p>
+                                            <p class="content-p">Beth moved back to Sussex in 2017 with a desire to rekindle her love of acting. She has most recently appeared in The Hypochondriac (2019) and Rumours (2018),</p>
+                                            <a href="www.lisafairfield.com">Website</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="row text-margin mt-4 mb-0">
-                                    <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
-                                        <img src="assets/images/profile/trevor-scales.png" class="img-fluid profile"
-                                            alt="Trevor Scales">
-                                        <p class="content-h">Trevor Scales</p>
-                                        <p class="content-p">Trevor was classically trained at East 15 Acting School
-                                            - a major proponent of Stanislavski and directly in the lineage of the
-                                            groundbreaking Theatre work of Joan Littlewood.</p>
-                                        <p class="content-p">He was also very fortunate to have been personally
-                                            mentored by the legendary Theatre Director Simone Vause, to whom he is
-                                            forever indebted for her tireless encouragement and intensive training.
-                                        </p>
-                                        <p class="content-p">Trevor has performed in a large number of plays in
-                                            London, Edinburgh and Brighton Fringe Festivals cast as a wide range of
-                                            very differing characters.</p>
-                                        <p class="content-p">He is especially happy and proud to be an original Cast
-                                            Member of Brighton’s Pop Heart Productions for whom he has performed for
-                                            twice in ‘Decade 20‘ and more recently the much acclaimed ‘Blue Sky
-                                            Thinking’ in Brighton Fringe Festival.</p>
+                                <div class="col-lg-6">
+                                    <div class="row text-margin mt-4 mb-0">
+                                        <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
+                                            <img src="assets/images/profile/suzanne-sharples.png" class="img-fluid profile" alt="Suzanne Sharples" />
+                                            <p class="content-h">Suzanne Sharples</p>
+                                            <p class="content-p">Suzanne is delighted to be back on the stage after a 15 year hiatus; playing the part of Catherine. Suzanne is also the co-producer, and hopes you enjoy the show.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="row text-margin mt-4 mb-0">
-                                    <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
-                                         <img src="assets/images/profile/lisa-fairfield.png" class="img-fluid profile"
-                                            alt="Lisa Faifield">
-                                        <p class="content-h">Vicki Hougham</p>
-                                        <p class="content-p">Vicki is the director of The Memory of Water and this is
-                                            her first official directing role since she was a student. Drama, movement
-                                            and story are everyday occurrences in her home and work life. She is also a
-                                            mother, daughter, granddaughter, sister, half sister, wife, drama and
-                                            movement therapist amongst other roles and this has helped enormously in
-                                            directing this play. She hopes you enjoy.</p>
+                                <div class="col-lg-6">
+                                    <div class="row text-margin mt-4 mb-0">
+                                        <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
+                                            <img src="assets/images/profile/daniel-marot.png" class="img-fluid profile" alt="Daniel Marot" />
+                                            <p class="content-h">Daniel Marot</p>
+                                            <p class="content-p">Beth moved back to Sussex in 2017 with a desire to rekindle her love of acting. She has most recently appeared in The Hypochondriac (2019) and Rumours (2018),</p>
+                                            <a href="https://www.spotlight.com/interactive/cv/8290-3492-0586 ">Website</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="row text-margin mt-4 mb-0">
+                                        <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
+                                            <img src="assets/images/profile/trevor-scales.png" class="img-fluid profile" alt="Trevor Scales" />
+                                            <p class="content-h">Trevor Scales</p>
+                                            <p class="content-p">
+                                                Trevor was classically trained at East 15 Acting School - a major proponent of Stanislavski and directly in the lineage of the groundbreaking Theatre work of Joan Littlewood.
+                                            </p>
+                                            <p class="content-p">
+                                                He was also very fortunate to have been personally mentored by the legendary Theatre Director Simone Vause, to whom he is forever indebted for her tireless encouragement and intensive
+                                                training.
+                                            </p>
+                                            <p class="content-p">Trevor has performed in a large number of plays in London, Edinburgh and Brighton Fringe Festivals cast as a wide range of very differing characters.</p>
+                                            <p class="content-p">
+                                                He is especially happy and proud to be an original Cast Member of Brighton’s Pop Heart Productions for whom he has performed for twice in ‘Decade 20‘ and more recently the much acclaimed ‘Blue
+                                                Sky Thinking’ in Brighton Fringe Festival.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="row text-margin mt-4 mb-0">
+                                        <div class="text-box-inside pl-4 pt-4 pr-4 pb-0">
+                                            <img src="assets/images/profile/lisa-fairfield.png" class="img-fluid profile" alt="Lisa Faifield" />
+                                            <p class="content-h">Vicki Hougham</p>
+                                            <p class="content-p">
+                                                Vicki is the director of The Memory of Water and this is her first official directing role since she was a student. Drama, movement and story are everyday occurrences in her home and work
+                                                life. She is also a mother, daughter, granddaughter, sister, half sister, wife, drama and movement therapist amongst other roles and this has helped enormously in directing this play. She
+                                                hopes you enjoy.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </main>
+        </div>
 
-
-        </main>
-
-
-
-
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
-    <script src="assets/js/navbar.js"></script>
-</body>
-
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
+        <script src="assets/js/navbar.js"></script>
+    </body>
 </html>
