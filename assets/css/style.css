@@ -365,7 +365,7 @@ main ul li a:hover {
 
 /*---Reduce Header size for sm devices for better layout/ Viewing. Too big on sm---*/
 
-@media(min-width:2000px) {
+@media(min-width:1200px) {
 .content-main-header{
     font-family: 'Pacifico', cursive;
     font-size:3rem;
@@ -376,7 +376,7 @@ main ul li a:hover {
 
 /*---Reduce MT for Block content for main section for better/ readible content below nav bar for sm---*/
 
-@media(min-width:2000px) {
+@media(min-width:1200px) {
 .block-container{
     margin-top: 15rem;
     }
