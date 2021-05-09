@@ -339,6 +339,7 @@ main ul li a:hover {
 @media(min-width:1800px) {
 .poster{
     max-width:50%;
+    }
 }
 
 /*---Reduce M/P for text box for sm devices for better layout/ Reading---*/
@@ -364,19 +365,19 @@ main ul li a:hover {
 
 /*---Reduce Header size for sm devices for better layout/ Viewing. Too big on sm---*/
 
-@media(min-width:767px) {
+@media(min-width:2000px) {
 .content-main-header{
     font-family: 'Pacifico', cursive;
     font-size:3rem;
     text-align:justify;
     color:rgb(181,189,191, 1)
-}
+    }
 }
 
 /*---Reduce MT for Block content for main section for better/ readible content below nav bar for sm---*/
 
-@media(min-width:767px) {
+@media(min-width:2000px) {
 .block-container{
     margin-top: 15rem;
-}
+    }
 }
