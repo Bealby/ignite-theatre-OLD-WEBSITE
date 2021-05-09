@@ -309,10 +309,31 @@ main ul li a:hover {
     vertical-align: middle;
 }
 
+.fa-chevron-up{
+   color:rgb(181,189,191, 1);
+}
+
 /*---Block content for main section for better/ readible content below nav bar---*/
 
 .block-container{
     margin-top: 11rem;
+}
+
+/*-----Page-Top-Scroll-Feature-----*/
+
+.page-top-button {
+    height: 2.625rem;
+    width: 2.625rem;
+    position: fixed;
+    bottom: 0.625rem;
+    right: 0.625rem;
+    z-index: 1
+}
+
+.page-top-link {
+    cursor: pointer;
+    text-decoration: none !important;
+    z-index: 1
 }
 
 
