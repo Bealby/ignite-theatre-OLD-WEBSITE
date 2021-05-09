@@ -75,7 +75,11 @@ main ul li a {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
 
+main ul li a:hover {
+    color: rgb(128, 0, 0, 1);
+    text-decoration:none;
 }
 
 /*---Navbar Links---*/
