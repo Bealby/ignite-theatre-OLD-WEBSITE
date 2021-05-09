@@ -149,7 +149,7 @@ main ul li a {
      top: 0px;
      left: 0px;
      z-index: 1;
-     background: rgb(109, 189, 174, 1);
+     background: rgb(0, 0, 0, 0.8);
      overflow: hidden;
      transition: 0.5s ease-in-out;
 }
@@ -193,11 +193,11 @@ main ul li a {
 }
 
  .menu-content a:hover {
-     background-color: #1b998b;
+     background-color: rgb(128, 0, 0, 1);
 }
 
  .menu-content-intro-links a:hover {
-     background-color: #1b998b;
+     background-color: rgb(128, 0, 0, 1);
 }
 
  .menu-container .closebtn {
