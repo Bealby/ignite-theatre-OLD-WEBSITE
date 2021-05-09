@@ -299,7 +299,7 @@ main ul li a:hover {
 /*---Block content for main section for better/ readible content below nav bar---*/
 
 .block-container{
-    margin-top: 15rem;
+    margin-top: 11rem;
 }
 
 
@@ -353,9 +353,6 @@ main ul li a:hover {
     }
 }
 
-
-
-
 /*---Reduce MR ML for text content for better spacing and reading for sm---*/
 
 @media(min-width:767px) {
@@ -367,9 +364,19 @@ main ul li a:hover {
 
 /*---Reduce Header size for sm devices for better layout/ Viewing. Too big on sm---*/
 
+@media(min-width:767px) {
 .content-main-header{
     font-family: 'Pacifico', cursive;
     font-size:3rem;
     text-align:justify;
     color:rgb(181,189,191, 1)
+}
+}
+
+/*---Reduce MT for Block content for main section for better/ readible content below nav bar for sm---*/
+
+@media(min-width:767px) {
+.block-container{
+    margin-top: 15rem;
+}
 }
