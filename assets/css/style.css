@@ -222,7 +222,11 @@ main ul li a:hover {
 }
 
 .text-box-outside{
-        background:rgb(0, 0, 0, 0.6)
+        background:rgb(0, 0, 0, 0.6);
+        padding-top:1.5rem;
+        padding-bottom:0rem;
+        margin-left:0rem;
+        margin-right:0rem;
 }
 
 .content-p{
@@ -323,8 +327,20 @@ main ul li a:hover {
     }
 }   
 
-/*---Nav Gallery link positioning for sm/md/lg for better alignment---*/
+/*---Poster resizing for smaller devices for better layout/ Viewing---*/
 @media(min-width:1800px) {
 .poster{
     max-width:50%;
+}
+
+/*---Reduce M/P for text box for sm devices for better layout/ Reading---*/
+
+@media(min-width:767px) {
+.text-box-outside{
+        background:rgb(0, 0, 0, 0.6);
+        padding-top:1.5rem;
+        padding-bottom:1.5rem;
+        margin-left:1.5rem;
+        margin-right:1.5rem;
+}
 }
