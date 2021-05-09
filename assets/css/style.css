@@ -322,3 +322,9 @@ main ul li a:hover {
     transform: rotate(-9deg);
     }
 }   
+
+/*---Nav Gallery link positioning for sm/md/lg for better alignment---*/
+@media(min-width:1800px) {
+.poster{
+    max-width:50%;
+}
