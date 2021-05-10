@@ -133,7 +133,7 @@ main ul li a:hover {
 }
 
 .profile{
-    max-width: 50%;
+    max-width: 80%;
 }
 
 
@@ -595,5 +595,12 @@ main ul li a:hover {
 @media(min-width:992px) {
 main {
     height: 5000px;
+    }
+}
+
+/*---Enlarge image for profile for mb for better viewing---*/
+@media(min-width:767px) {
+.profile{
+    max-width: 50%;
     }
 }
