@@ -85,8 +85,8 @@ main ul li a:hover {
 /*---Navbar Links---*/
 
 .nav-about {
-    top:40px;
-    transform: rotate(6deg);
+    top:35px;
+    transform: rotate(10deg);
 }
 
 .nav-cast {
@@ -100,8 +100,8 @@ main ul li a:hover {
 }
 
 .nav-gallery {
-    top:40px;
-    transform: rotate(-6deg);
+    top:35px;
+    transform: rotate(-10deg);
 }
 
 /*---Logo( Poster---*/
@@ -482,8 +482,8 @@ main ul li a:hover {
 /*---Nav About link positioning for sm/md/lg for better alignment---*/
 @media(min-width:2200px) {
 .nav-about {
-    top:13px;
-    transform: rotate(9deg);
+    top:17px;
+    transform: rotate(12deg);
     }
 }
 
@@ -506,8 +506,8 @@ main ul li a:hover {
 /*---Nav Gallery link positioning for sm/md/lg for better alignment---*/
 @media(min-width:2200px) {
 .nav-gallery {
-    top:13px;
-    transform: rotate(-9deg);
+    top:17px;
+    transform: rotate(-12deg);
     }
 }   
 
