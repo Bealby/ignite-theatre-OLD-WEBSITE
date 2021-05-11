@@ -596,3 +596,19 @@ main ul li a:hover {
     max-width: 50%;
     }
 }
+
+/*---Height for lg screen for positioning of navbar so it can be seen---*/
+
+@media(min-width:1200px) {
+main {
+   height:4500px;
+    }
+}
+
+/*---Height for lg screen for positioning of navbar so it can be seen---*/
+
+@media(min-width:1200px) {
+main nav:after{
+    height:9274px;
+    }
+}
