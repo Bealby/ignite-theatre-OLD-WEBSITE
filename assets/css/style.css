@@ -317,6 +317,10 @@ main ul li a:hover {
    color:rgb(181,189,191, 1);
 }
 
+.fa-book-open{
+    font-size:1.5rem;
+}
+
 /*---Block content for main section for better/ readible content below nav bar---*/
 
 .block-container{
@@ -420,9 +424,9 @@ main ul li a:hover {
 .read-more-news {
     border: 0.1rem solid;
     border-color: rgb(128, 0, 0, 1);
-    padding-left: 0.4rem;
-    padding-right: 0.4rem;
-    padding-top: 0.4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.8rem;
     padding-bottom: 0.4rem;
     text-decoration: none !important;
     background: rgb(128, 0, 0, 1);
