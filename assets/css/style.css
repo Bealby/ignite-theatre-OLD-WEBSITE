@@ -301,6 +301,11 @@ main ul li a:hover {
     font-size:2rem;
 }
 
+.fa-wine-bottle{
+    color: rgb(128, 0, 0, 1);
+    font-size:2rem;
+}
+
 .fa-utensils{
     color: rgb(128, 0, 0, 1);
     font-size:2rem;
