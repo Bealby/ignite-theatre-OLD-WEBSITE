@@ -222,18 +222,15 @@ main ul li a:hover {
 
 .text-box-inside-profile{
     background:rgb(0, 0, 0, 1);
-    max-height:auto;
-    min-height:auto;
-    max-width:auto;
-    min-width:auto;
+    max-height:36rem;
 }
 
 .text-box-outside{
-        background:rgb(0, 0, 0, 0.6);
-        padding-top:1.5rem;
-        padding-bottom:0rem;
-        margin-left:0rem;
-        margin-right:0rem;
+    background:rgb(0, 0, 0, 0.6);
+    padding-top:1.5rem;
+    padding-bottom:0rem;
+    margin-left:0rem;
+    margin-right:0rem;
 }
 
 .content-p{
@@ -457,6 +454,14 @@ main ul li a:hover {
 
 .read-more-news:hover {
     background: rgb(181,189,191, 1);
+    color: rgb(128, 0, 0, 1);
+}
+
+.murray-bealby{
+    color:rgb(181,189,191, 1);
+}
+
+.murray-bealby:hover{
     color: rgb(128, 0, 0, 1);
 }
 
