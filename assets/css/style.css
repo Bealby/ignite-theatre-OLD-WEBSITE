@@ -241,6 +241,14 @@ main ul li a:hover {
     color:rgb(181,189,191, 1)
 }
 
+.content-p-blue{
+    font-family: 'Lato', sans-serif;
+    font-size:1.1rem;
+    font-weight:700;
+    text-align:justify;
+    color:rgb(1,81,129, 1)
+}
+
 .content-p-profile{
     font-family: 'Lato', sans-serif;
     font-size:1.1rem;
@@ -325,6 +333,11 @@ main ul li a:hover {
 
 .fa-book-open{
     font-size:1.5rem;
+}
+
+.fa-handshake{
+    color: rgb(1, 81, 129, 1);
+    font-size:1.2rem;
 }
 
 /*---Block content for main section for better/ readible content below nav bar---*/
@@ -614,6 +627,16 @@ main ul li a:hover {
     font-weight:700;
     text-align:left;
     color:rgb(181,189,191, 1)
+    }
+}
+
+@media(min-width:767px) {
+.content-p-blue{
+    font-family: 'Lato', sans-serif;
+    font-size:1rem;
+    font-weight:700;
+    text-align:justify;
+    color:rgb(1,81,129, 1)
     }
 }
 
