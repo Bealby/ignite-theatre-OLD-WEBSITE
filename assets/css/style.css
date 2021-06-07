@@ -692,7 +692,7 @@ main nav:after{
 @media(min-width:767px) {
 #overflowTest {
     overflow-y: auto;
-    max-height: 8rem;
+    max-height: 9rem;
     }
 }
 
