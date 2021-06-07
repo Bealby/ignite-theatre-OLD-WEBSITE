@@ -107,15 +107,8 @@ main ul li a:hover {
   height: 160px;
 }
 
-.header-logo-sm {
-  top: 26px;
-  left: 0;
-  right: 0;
-  position: absolute;
-}
-
 .header-logo-sm img {
-  height: 119px;
+  height: 150px;
 }
 
 .poster {
@@ -133,7 +126,6 @@ main ul li a:hover {
   color: rgb(255, 255, 255) !important;
   font-size: 40px;
   cursor: pointer;
-  background-color: rgb(109, 189, 174);
 }
 
 .menu-container {

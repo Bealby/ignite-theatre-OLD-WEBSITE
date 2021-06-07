@@ -18,9 +18,14 @@
 	<div class="container-fluid pl-0 pr-0">
 		<main>
 			<!---Mobile Toggle-->
-			<div class="container-fluid d-xl-none">
+			<div class="container-fluid d-xl-none mt-4 mb-4">
+				<div class="row menu-icon header-logo-sm text-center">
+					<div class="col"><img src="assets/images/logo.png" class="img-fluid" alt="Logo"></div>
+				</div>
+            </div>
+            <div class="container-fluid d-xl-none">
 				<div class="row menu-icon text-center">
-					<div class="col header-logo-sm"> <span onclick="openMenu()"><img src="assets/images/logo.png" class="img-fluid" alt="Logo"/></span> </div>
+					<div class="col"> <span onclick="openMenu()"><i class="fas fa-bars"></i></span> </div>
 				</div>
 			</div>
 			<div class="menu-container" id="navbar"> <span class="closebtn" onclick="closeMenu()">&times;</span>
@@ -37,15 +42,15 @@
 					<li> <a class="nav-eat-parking" href="eat-parking.html">Info</a> </li>
 					<li> <a class="nav-gallery" href="gallery.html">Gallery</a> </li>
 				</ul>
-			</nav>
-			<!---Block Container-->
-			<div class="container-fluid">
+            </nav>
+            <!---Block Container-->
+			<div class="container-fluid d-none d-xl-block">
 				<div class="row block-container">
 					<div class="col-6"></div>
 				</div>
 			</div>
 			<!---Main Content-->
-			<section class="container-fluid pl-0 pr-0 mt-5">
+			<section class="container-fluid pl-0 pr-0 mt-3">
 				<div class="row text-box-outside mb-0">
 					<div class="col">
 						<div class="row">
