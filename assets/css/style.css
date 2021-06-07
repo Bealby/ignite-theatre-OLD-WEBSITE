@@ -1,717 +1,710 @@
-@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Pacifico&family=Rammetto+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Pacifico&family=Rammetto+One&display=swap");
 
 body {
-	position: relative;
-	min-height: calc(100vh);
-    background: rgb(0, 0, 0, 1);
-    color:rgb(0,0,0,1);
+  position: relative;
+  min-height: calc(100vh);
+  background: rgb(0, 0, 0, 1);
+  color: rgb(0, 0, 0, 1);
 }
 
 /*---Header (Links)---*/
 
 main {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    background: url("/assets/images/theatre-background.png") no-repeat center center fixed;
-    background-size: cover;
-    background-position:50% 50%;
-    padding-bottom:10rem;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: url("/assets/images/theatre-background.png") no-repeat center
+    center fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding-bottom: 10rem;
 }
 
 main nav:after {
-    content: '';
-    position: absolute;
-    top: -100%;
-    left: 50%; 
-    transform: translate(-50%, -50%) rotate(180deg); 
-    height: 10277px; 
-    width: 7500px; 
-    border-radius: 50%; 
-    background-color: rgb(0, 0, 0, 0.6);
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+  height: 10277px;
+  width: 7500px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0, 0.6);
 }
 
 main section:after {
-    position: relative;
+  position: relative;
 }
 
-
 main ul {
-    position: relative;
-    top: 20px;
-    margin:0 auto;
-    display:block;
-    text-align: center;
-    list-style: none;
-    z-index:999;
+  position: relative;
+  top: 20px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  list-style: none;
+  z-index: 999;
 }
 
 ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
 }
 
-main ul li { 
-    display: inline-block;
-    width:12%;
-    position: relative;
+main ul li {
+  display: inline-block;
+  width: 12%;
+  position: relative;
 }
 
-main ul li a { 
-    font-family: 'Rammetto One', cursive;
-    text-transform: uppercase;
-    display:inline-block;
-    font-weight:700;
-    font-size: 20px;
-    position: relative;
-    color:#fff;
-    text-decoration: none;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+main ul li a {
+  font-family: "Rammetto One", cursive;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 main ul li a:hover {
-    color: rgb(128, 0, 0, 1);
-    text-decoration:none;
+  color: rgb(128, 0, 0, 1);
+  text-decoration: none;
 }
 
 /*---Navbar Links---*/
 
 .nav-about {
-    top:35px;
-    transform: rotate(10deg);
+  top: 35px;
+  transform: rotate(10deg);
 }
 
 .nav-cast {
-    top:62px;
-    transform: rotate(6deg);
+  top: 62px;
+  transform: rotate(6deg);
 }
 
 .nav-eat-parking {
-    top:62px;
-    transform: rotate(-3deg);
+  top: 62px;
+  transform: rotate(-3deg);
 }
 
 .nav-gallery {
-    top:35px;
-    transform: rotate(-10deg);
+  top: 35px;
+  transform: rotate(-10deg);
 }
 
 /*---Logo( Poster---*/
 
 .header-logo {
-    top:-1px;
-    left:0;
-    right:0;
-    position:absolute;
+  top: -1px;
+  left: 0;
+  right: 0;
+  position: absolute;
 }
 
 .header-logo img {
-    height:160px;
+  height: 160px;
 }
 
 .header-logo-sm {
-    top:26px;
-    left:0;
-    right:0;
-    position:absolute;
+  top: 26px;
+  left: 0;
+  right: 0;
+  position: absolute;
 }
 
 .header-logo-sm img {
-    height:119px;
+  height: 119px;
 }
 
-.poster{
-    max-width: 80%;
+.poster {
+  max-width: 80%;
 }
 
-.profile{
-    max-width: 80%;
-    max-height: 70%;
+.profile {
+  max-width: 80%;
+  max-height: 70%;
 }
 
 /*---Navbar Overlay---*/
 
- .menu-icon {
-     color: rgb(255, 255, 255) !important;
-     font-size: 40px;
-     cursor: pointer;
-     background-color: rgb(109, 189, 174);
+.menu-icon {
+  color: rgb(255, 255, 255) !important;
+  font-size: 40px;
+  cursor: pointer;
+  background-color: rgb(109, 189, 174);
 }
 
- .menu-container {
-     height: 0%;
-     width: 100%;
-     position: fixed;
-     top: 0px;
-     left: 0px;
-     z-index: 1;
-     background: rgb(0, 0, 0, 0.8);
-     overflow: hidden;
-     transition: 0.5s ease-in-out;
+.menu-container {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background: rgb(0, 0, 0, 0.8);
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
 }
 
- .menu-content {
-     position: relative;
-     top: 25%;
-     width: 100%;
-     text-align: center;
+.menu-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
 }
 
- .menu-content a {
-     padding: 16px;
-     text-decoration: none;
-     display: block;
-     transition: .3s ease-in-out;
-     font-weight: 700;
-     letter-spacing: 2px;
-     font-family: 'Rammetto One', cursive;
-     font-size:1.5rem;
-     color:rgb(255,255,255, 1);
+.menu-content a {
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s ease-in-out;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "Rammetto One", cursive;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255, 1);
 }
 
- .menu-content-intro {
-     padding: 16px;
-     text-decoration: none;
-     font-size: 30px;
-     display: block;
-     font-family: roboto, sans-serif;
-     transition: .3s ease-in-out;
-     font-weight: 700;
-     margin-top: 3rem;
-     letter-spacing: 2px;
+.menu-content-intro {
+  padding: 16px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+  font-family: roboto, sans-serif;
+  transition: 0.3s ease-in-out;
+  font-weight: 700;
+  margin-top: 3rem;
+  letter-spacing: 2px;
 }
 
- .menu-content-intro-links a {
-     padding: 9px;
-     text-decoration: none;
-     display: block;
-     transition: .3s ease-in-out;
+.menu-content-intro-links a {
+  padding: 9px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s ease-in-out;
 }
 
- .menu-content a:hover {
-     background-color: rgb(128, 0, 0, 1);
+.menu-content a:hover {
+  background-color: rgb(128, 0, 0, 1);
 }
 
- .menu-content-intro-links a:hover {
-     background-color: rgb(128, 0, 0, 1);
+.menu-content-intro-links a:hover {
+  background-color: rgb(128, 0, 0, 1);
 }
 
- .menu-container .closebtn {
-     position: absolute;
-     top: 24px;
-     right: 48px;
-     font-size: 50px;
-     color:rgb(255,255,255, 1);
-     z-index: 1;
-     cursor: pointer;
+.menu-container .closebtn {
+  position: absolute;
+  top: 24px;
+  right: 48px;
+  font-size: 50px;
+  color: rgb(255, 255, 255, 1);
+  z-index: 1;
+  cursor: pointer;
 }
-
 
 /*---Text/ Content---*/
 
-.text-box-inside{
-    background:rgb(0, 0, 0, 1);
+.text-box-inside {
+  background: rgb(0, 0, 0, 1);
 }
 
-.text-box-inside-profile{
-    background:rgb(0, 0, 0, 1);
-    height:auto;
+.text-box-inside-profile {
+  background: rgb(0, 0, 0, 1);
+  height: auto;
 }
 
-.text-box-outside{
-    background:rgb(0, 0, 0, 0.6);
-    padding-top:1.5rem;
-    padding-bottom:0rem;
-    margin-left:0rem;
-    margin-right:0rem;
+.text-box-outside {
+  background: rgb(0, 0, 0, 0.6);
+  padding-top: 1.5rem;
+  padding-bottom: 0rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 
-.content-p{
-    font-family: 'Lato', sans-serif;
-    font-size:1.1rem;
-    font-weight:700;
-    text-align:justify;
-    color:rgb(181,189,191, 1)
+.content-p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: justify;
+  color: rgb(181, 189, 191, 1);
 }
 
-.content-p-blue{
-    font-family: 'Lato', sans-serif;
-    font-size:1.1rem;
-    font-weight:700;
-    text-align:justify;
-    color:rgb(1,81,129, 1)
+.content-p-blue {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: justify;
+  color: rgb(1, 81, 129, 1);
 }
 
-.content-p-profile{
-    font-family: 'Lato', sans-serif;
-    font-size:1.1rem;
-    font-weight:700;
-    text-align:left;
-    color:rgb(181,189,191, 1)
+.content-p-profile {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(181, 189, 191, 1);
 }
 
-.content-h{
-    font-family: 'Rammetto One', cursive;
-    font-size:1.25rem;
-    text-align:left;
-    color:rgb(181,189,191, 1)
+.content-h {
+  font-family: "Rammetto One", cursive;
+  font-size: 1.25rem;
+  text-align: left;
+  color: rgb(181, 189, 191, 1);
 }
 
-.content-h-bio{
-    font-family: 'Rammetto One', cursive;
-    font-size:1.25rem;
-    text-align:center;
-    color:rgb(181,189,191, 1)
+.content-h-bio {
+  font-family: "Rammetto One", cursive;
+  font-size: 1.25rem;
+  text-align: center;
+  color: rgb(181, 189, 191, 1);
 }
 
-.content-main-header{
-    font-family: 'Pacifico', cursive;
-    font-size:2rem;
-    text-align:justify;
-    color:rgb(181,189,191, 1)
+.content-main-header {
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+  text-align: justify;
+  color: rgb(181, 189, 191, 1);
 }
 
 /*---Margin/ Padding---*/
 
-.text-margin{
-    margin-right:0.5rem;
-    margin-left:0.5rem;
+.text-margin {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
-.lisa-margin-text{
-    margin-top: 3rem;
+.lisa-margin-text {
+  margin-top: 3rem;
 }
 
-.lisa-margin-image{
-    margin-top: 4rem;
+.lisa-margin-image {
+  margin-top: 4rem;
 }
 
 /*---Font Awesome Icons---*/
 
 .fa-theater-masks {
-    color: rgb(128, 0, 0, 1);
-    font-size:2rem;
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
 }
 
-.fa-users{
-    color: rgb(128, 0, 0, 1);
-    font-size:2rem;
+.fa-users {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
 }
 
-.fa-parking{
-    color: rgb(128, 0, 0, 1);
-    font-size:2rem;
+.fa-parking {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
 }
 
-.fa-wine-bottle{
-    color: rgb(128, 0, 0, 1);
-    font-size:2rem;
+.fa-wine-bottle {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
 }
 
-.fa-utensils{
-    color: rgb(128, 0, 0, 1);
-    font-size:2rem;
+.fa-utensils {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
 }
 
-.fa-facebook-square{
-    color: rgb(128, 0, 0, 1);
-    font-size:2.5rem;
+.fa-facebook-square {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2.5rem;
 }
 
-.fa-facebook-square:hover{
-    color: rgb(181,189,191, 1);
-    font-size:2.5rem;
+.fa-facebook-square:hover {
+  color: rgb(181, 189, 191, 1);
+  font-size: 2.5rem;
 }
 
-.fa-envelope{
-    color: rgb(128, 0, 0, 1);
-    font-size:2rem;
+.fa-envelope {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
 }
 
-.fa-video{
-    color: rgb(128, 0, 0, 1);
-    font-size:2rem;
+.fa-video {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
 }
 
-.fa-question{
-    color: rgb(128, 0, 0, 1);
-    font-size:2rem;
+.fa-question {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
 }
 
-.fa-user{
-    color: rgb(128, 0, 0, 1);
-    font-size:2rem;
+.fa-user {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
 }
 
-.fa-circle{
-    color: rgb(128, 0, 0, 1);
-    font-size:0.7rem;
-    vertical-align: middle;
+.fa-circle {
+  color: rgb(128, 0, 0, 1);
+  font-size: 0.7rem;
+  vertical-align: middle;
 }
 
-.fa-chevron-up{
-   color:rgb(181,189,191, 1);
+.fa-chevron-up {
+  color: rgb(181, 189, 191, 1);
 }
 
-.fa-book-open{
-    font-size:1.5rem;
+.fa-book-open {
+  font-size: 1.5rem;
 }
 
-.fa-handshake{
-    color: rgb(1, 81, 129, 1);
-    font-size:1.2rem;
+.fa-handshake {
+  color: rgb(1, 81, 129, 1);
+  font-size: 1.2rem;
 }
 
-.fa-globe-europe{
-    color: rgb(128, 0, 0, 1);
-    font-size:1.5rem;
+.fa-globe-europe {
+  color: rgb(128, 0, 0, 1);
+  font-size: 1.5rem;
 }
 
 /*---Block content for main section for better/ readible content below nav bar---*/
 
-.block-container{
-    margin-top: 8rem;
+.block-container {
+  margin-top: 8rem;
 }
 
 /*-----Text-Overflow-----*/
 
 #overflowTest {
-    overflow-y: auto;
-    max-height: 30rem;
+  overflow-y: auto;
+  max-height: 30rem;
 }
-
 
 /*-----Page-Top-Scroll-Feature-----*/
 
 .page-top-button {
-    height: 2.625rem;
-    width: 2.625rem;
-    position: fixed;
-    bottom: 0.625rem;
-    right: 0.625rem;
-    z-index: 1
+  height: 2.625rem;
+  width: 2.625rem;
+  position: fixed;
+  bottom: 0.625rem;
+  right: 0.625rem;
+  z-index: 1;
 }
 
 .page-top-link {
-    cursor: pointer;
-    text-decoration: none !important;
-    z-index: 1
+  cursor: pointer;
+  text-decoration: none !important;
+  z-index: 1;
 }
 
 /* IMAGE MODAL */
 
-
 /* Modal*/
 
 .myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .myImg:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 /* The Modal (background) */
 
 .modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 100px;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.9);
-    /* Black w/ opacity */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
 }
-
 
 /* Modal Content (image) */
 
 .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
 }
-
 
 /* Caption of Modal Image */
 
 #caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
 }
-
 
 /* Add Animation */
 
 .modal-content,
 #caption {
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
 }
 
 /* Ream More Links */
 
 .read-more-news {
-    border: 0.1rem solid;
-    border-color: rgb(128, 0, 0, 1);
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 0.8rem;
-    padding-bottom: 0.4rem;
-    text-decoration: none !important;
-    background: rgb(128, 0, 0, 1);
-    color: rgb(181,189,191, 1);
-    border-radius: 0.5rem;
-    font-family: 'Lato', sans-serif;
-    font-size:1rem;
-    font-weight:700;
-    color:rgb(181,189,191, 1)
+  border: 0.1rem solid;
+  border-color: rgb(128, 0, 0, 1);
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.4rem;
+  text-decoration: none !important;
+  background: rgb(128, 0, 0, 1);
+  color: rgb(181, 189, 191, 1);
+  border-radius: 0.5rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(181, 189, 191, 1);
 }
 
 .read-more-news:hover {
-    background: rgb(181,189,191, 1);
-    color: rgb(128, 0, 0, 1);
+  background: rgb(181, 189, 191, 1);
+  color: rgb(128, 0, 0, 1);
 }
 
-.murray-bealby{
-    color:rgb(181,189,191, 1);
+.murray-bealby {
+  color: rgb(181, 189, 191, 1);
 }
 
-.murray-bealby:hover{
-    color: rgb(128, 0, 0, 1);
+.murray-bealby:hover {
+  color: rgb(128, 0, 0, 1);
 }
 
 @-webkit-keyframes zoom {
-    from {
-        -webkit-transform: scale(0)
-    }
+  from {
+    -webkit-transform: scale(0);
+  }
 
-    to {
-        -webkit-transform: scale(1)
-    }
+  to {
+    -webkit-transform: scale(1);
+  }
 }
 
 @keyframes zoom {
-    from {
-        transform: scale(0)
-    }
+  from {
+    transform: scale(0);
+  }
 
-    to {
-        transform: scale(1)
-    }
+  to {
+    transform: scale(1);
+  }
 }
-
 
 /* The Close Button */
 
 .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /*---Nav About link positioning for sm/md/lg for better alignment---*/
-@media(min-width:2200px) {
-.nav-about {
-    top:17px;
+@media (min-width: 2200px) {
+  .nav-about {
+    top: 17px;
     transform: rotate(12deg);
-    }
+  }
 }
 
 /*---Nav Home link positioning for sm/md/lg for better alignment---*/
-@media(min-width:2200px) {
-.nav-cast {
-    top:50px;
+@media (min-width: 2200px) {
+  .nav-cast {
+    top: 50px;
     transform: rotate(6deg);
-    }
+  }
 }
 
 /*---Nav Tickets link positioning for sm/md/lg for better alignment---*/
-@media(min-width:2200px) {
-.nav-eat-parking {
-    top:50px;
+@media (min-width: 2200px) {
+  .nav-eat-parking {
+    top: 50px;
     transform: rotate(-6deg);
-    }
+  }
 }
 
 /*---Nav Gallery link positioning for sm/md/lg for better alignment---*/
-@media(min-width:2200px) {
-.nav-gallery {
-    top:17px;
+@media (min-width: 2200px) {
+  .nav-gallery {
+    top: 17px;
     transform: rotate(-12deg);
-    }
-}   
+  }
+}
 
 /*---Poster resizing for smaller devices for better layout/ Viewing---*/
-@media(min-width:1800px) {
-.poster{
-    max-width:50%;
-    }
+@media (min-width: 1800px) {
+  .poster {
+    max-width: 50%;
+  }
 }
 
 /*---Reduce M/P for text box for sm devices for better layout/ Reading---*/
 
-@media(min-width:767px) {
-.text-box-outside{
-        background:rgb(0, 0, 0, 0.6);
-        padding-top:1.5rem;
-        padding-bottom:1.5rem;
-        margin-left:1.5rem;
-        margin-right:1.5rem;
-    }
+@media (min-width: 767px) {
+  .text-box-outside {
+    background: rgb(0, 0, 0, 0.6);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
 }
 
 /*---Reduce MR ML for text content for better spacing and reading for sm---*/
 
-@media(min-width:767px) {
-.text-margin{
-    margin-right:1.5rem;
-    margin-left:1.5rem;
-    }
+@media (min-width: 767px) {
+  .text-margin {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
 }
 
 /*---Reduce Header size for sm devices for better layout/ Viewing. Too big on sm---*/
 
-@media(min-width:1200px) {
-.content-main-header{
-    font-family: 'Pacifico', cursive;
-    font-size:3rem;
-    text-align:justify;
-    color:rgb(181,189,191, 1)
-    }
+@media (min-width: 1200px) {
+  .content-main-header {
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+    text-align: justify;
+    color: rgb(181, 189, 191, 1);
+  }
 }
 
 /*---Reduce MT for Block content for main section for better/ readible content below nav bar for sm---*/
 
-@media(min-width:1200px) {
-.block-container{
+@media (min-width: 1200px) {
+  .block-container {
     margin-top: 15rem;
-    }
+  }
 }
 
 /*---Text-Left for biography header for sm devices for better alignment---*/
 
-@media(min-width:767px) {
-.content-h-bio{
-    font-family: 'Rammetto One', cursive;
-    font-size:1.25rem;
-    text-align:center;
-    color:rgb(181,189,191, 1)
-    }
+@media (min-width: 767px) {
+  .content-h-bio {
+    font-family: "Rammetto One", cursive;
+    font-size: 1.25rem;
+    text-align: center;
+    color: rgb(181, 189, 191, 1);
+  }
 }
 
 /*---Enlarge text for mb for clearer reading---*/
 
-@media(min-width:767px) {
-.content-p{
-    font-family: 'Lato', sans-serif;
-    font-size:1rem;
-    font-weight:700;
-    text-align:justify;
-    color:rgb(181,189,191, 1)
-    }
+@media (min-width: 767px) {
+  .content-p {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: justify;
+    color: rgb(181, 189, 191, 1);
+  }
 }
 
-@media(min-width:767px) {
-.content-p-profile{
-    font-family: 'Lato', sans-serif;
-    font-size:1rem;
-    font-weight:700;
-    text-align:left;
-    color:rgb(181,189,191, 1)
-    }
+@media (min-width: 767px) {
+  .content-p-profile {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(181, 189, 191, 1);
+  }
 }
 
-@media(min-width:767px) {
-.content-p-blue{
-    font-family: 'Lato', sans-serif;
-    font-size:1rem;
-    font-weight:700;
-    text-align:justify;
-    color:rgb(1,81,129, 1)
-    }
+@media (min-width: 767px) {
+  .content-p-blue {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: justify;
+    color: rgb(1, 81, 129, 1);
+  }
 }
 
 /*---Enlarge image for profile for mb for better viewing---*/
-@media(min-width:767px) {
-.profile{
+@media (min-width: 767px) {
+  .profile {
     max-width: 70%;
-    }
+  }
 }
 
 /*---Height for lg screen for positioning of navbar so it can be seen---*/
 
-@media(min-width:1200px) {
-main {
-   height:4500px;
-    }
+@media (min-width: 1200px) {
+  main {
+    height: 4500px;
+  }
 }
 
 /*---Height for lg screen for positioning of navbar so it can be seen---*/
 
-@media(min-width:1200px) {
-main nav:after{
-    height:9274px;
-    }
+@media (min-width: 1200px) {
+  main nav:after {
+    height: 9274px;
+  }
 }
 
 /*---Change height of box for better viewing on mb---*/
 
-@media(min-width:767px) {
-.text-box-inside-profile{
-    background:rgb(0, 0, 0, 1);
-    height:43rem;
-    }
+@media (min-width: 767px) {
+  .text-box-inside-profile {
+    background: rgb(0, 0, 0, 1);
+    height: 43rem;
+  }
 }
 
 /*---Increase max-height overflow for better viewing on mb---*/
 
-@media(min-width:767px) {
-#overflowTest {
+@media (min-width: 767px) {
+  #overflowTest {
     overflow-y: auto;
     max-height: 9rem;
-    }
+  }
 }
