@@ -370,6 +370,11 @@ main ul li a:hover {
     font-size:1.2rem;
 }
 
+.fa-globe-europe{
+    color: rgb(128, 0, 0, 1);
+    font-size:1.5rem;
+}
+
 /*---Block content for main section for better/ readible content below nav bar---*/
 
 .block-container{
