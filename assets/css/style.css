@@ -134,6 +134,7 @@ main ul li a:hover {
 
 .profile{
     max-width: 80%;
+    max-height: 70%;
 }
 
 /*---Navbar Overlay---*/
@@ -222,7 +223,7 @@ main ul li a:hover {
 
 .text-box-inside-profile{
     background:rgb(0, 0, 0, 1);
-    height:40rem;
+    height:auto;
 }
 
 .text-box-outside{
@@ -355,7 +356,7 @@ main ul li a:hover {
 
 #overflowTest {
     overflow-y: auto;
-    max-height: 8rem;
+    max-height: 30rem;
 }
 
 
@@ -648,7 +649,7 @@ main ul li a:hover {
 /*---Enlarge image for profile for mb for better viewing---*/
 @media(min-width:767px) {
 .profile{
-    max-width: 50%;
+    max-width: 70%;
     }
 }
 
@@ -665,5 +666,23 @@ main {
 @media(min-width:1200px) {
 main nav:after{
     height:9274px;
+    }
+}
+
+/*---Change height of box for better viewing on mb---*/
+
+@media(min-width:767px) {
+.text-box-inside-profile{
+    background:rgb(0, 0, 0, 1);
+    height:40rem;
+    }
+}
+
+/*---Increase max-height overflow for better viewing on mb---*/
+
+@media(min-width:767px) {
+#overflowTest {
+    overflow-y: auto;
+    max-height: 8rem;
     }
 }
