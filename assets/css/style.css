@@ -310,6 +310,16 @@ main ul li a:hover {
   font-size: 2rem;
 }
 
+.fa-thumbs-up {
+  color: rgb(181, 189, 191, 1);
+  font-size: 2rem;
+}
+
+.fa-thumbs-up:hover {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
 .fa-facebook-square {
   color: rgb(128, 0, 0, 1);
   font-size: 2.5rem;
