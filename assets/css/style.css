@@ -222,7 +222,7 @@ main ul li a:hover {
 
 .text-box-inside-profile{
     background:rgb(0, 0, 0, 1);
-    max-height:36rem;
+    height:40rem;
 }
 
 .text-box-outside{
