@@ -314,12 +314,17 @@ main ul li a:hover {
 
 .fa-facebook-square {
   color: rgb(128, 0, 0, 1);
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 .fa-facebook-square:hover {
   color: rgb(181, 189, 191, 1);
-  font-size: 2.5rem;
+  font-size: 2.2rem;
+}
+
+.fa-ticket-alt{
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
 }
 
 .fa-envelope {
