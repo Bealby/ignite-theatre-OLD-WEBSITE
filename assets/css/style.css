@@ -443,7 +443,7 @@ main ul li a:hover {
 /* Images */
 
 .gallery-images{
-  max-width:20%;
+  max-width:250px;
 }
 
 .hover-image:hover {
