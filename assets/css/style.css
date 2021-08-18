@@ -440,6 +440,12 @@ main ul li a:hover {
   /* Black w/ opacity */
 }
 
+/* Images */
+
+.gallery-images{
+  max-width:20%;
+}
+
 /* Modal Content (image) */
 
 .modal-content {
