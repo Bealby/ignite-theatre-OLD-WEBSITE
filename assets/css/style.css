@@ -450,6 +450,11 @@ main ul li a:hover {
   opacity: 0.7;
 }
 
+.eventbrite-logo{
+  max-width:200px;
+}
+
+
 /* Modal Content (image) */
 
 .modal-content {
