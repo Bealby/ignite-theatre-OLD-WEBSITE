@@ -279,6 +279,10 @@ main ul li a:hover {
     margin-top: 4rem;
 }
 
+.ntc-padding {
+    padding-top: 2rem;
+}
+
 
 /*---Font Awesome Icons---*/
 
@@ -758,5 +762,14 @@ main ul li a:hover {
     #overflowTest {
         overflow-y: auto;
         max-height: 9rem;
+    }
+}
+
+
+/*---Padding top for NTC image for mobile for better spacing between both---*/
+
+@media (min-width: 767px) {
+    .ntc-padding {
+        padding-top: 0rem;
     }
 }
