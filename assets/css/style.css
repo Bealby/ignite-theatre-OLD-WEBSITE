@@ -652,15 +652,6 @@ main ul li a:hover {
 }
 
 
-/*---Poster resizing for smaller devices for better layout/ Viewing---*/
-
-@media (min-width: 1800px) {
-    .poster {
-        max-width: 50%;
-    }
-}
-
-
 /*---Reduce M/P for text box for sm devices for better layout/ Reading---*/
 
 @media (min-width: 767px) {
