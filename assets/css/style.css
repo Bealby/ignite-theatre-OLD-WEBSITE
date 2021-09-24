@@ -84,7 +84,7 @@ main ul li a:hover {
     transform: rotate(6deg);
 }
 
-.nav-eat-parking {
+.info {
     top: 62px;
     transform: rotate(-3deg);
 }
@@ -624,7 +624,7 @@ main ul li a:hover {
 /*---Nav Tickets link positioning for sm/md/lg for better alignment---*/
 
 @media (min-width: 2200px) {
-    .nav-eat-parking {
+    .info {
         top: 50px;
         transform: rotate(-6deg);
     }
