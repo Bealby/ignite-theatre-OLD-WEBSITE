@@ -467,8 +467,7 @@ main ul li a:hover {
 }
 
 .sponsor-images {
-    max-height: 140px;
-    max-width: 300px;
+    max-width: 80%;
 }
 
 
