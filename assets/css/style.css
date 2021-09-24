@@ -466,6 +466,11 @@ main ul li a:hover {
     max-width: 200px;
 }
 
+.sponsor-images {
+    max-height: 200px;
+    max-width: 200px;
+}
+
 
 /* Modal Content (image) */
 
