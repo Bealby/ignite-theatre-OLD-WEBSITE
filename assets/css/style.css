@@ -249,6 +249,13 @@ main ul li a:hover {
     color: rgb(181, 189, 191, 1);
 }
 
+.content-h2 {
+    font-family: "Rammetto One", cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(181, 189, 191, 1);
+}
+
 .content-h-bio {
     font-family: "Rammetto One", cursive;
     font-size: 1.25rem;
