@@ -323,12 +323,22 @@ main ul li a:hover {
 
 .fa-facebook-square {
     color: rgb(128, 0, 0, 1);
-    font-size: 2.2rem;
+    font-size: 1.5rem;
 }
 
 .fa-facebook-square:hover {
     color: rgb(181, 189, 191, 1);
-    font-size: 2.2rem;
+    font-size: 1.5rem;
+}
+
+.fa-globe-europe {
+    color: rgb(128, 0, 0, 1);
+    font-size: 1.5rem;
+}
+
+.fa-globe-europe:hover {
+    color: rgb(181, 189, 191, 1);
+    font-size: 1.5rem;
 }
 
 .fa-ticket-alt {
@@ -375,14 +385,19 @@ main ul li a:hover {
     font-size: 1.2rem;
 }
 
-.fa-globe-europe {
-    color: rgb(128, 0, 0, 1);
-    font-size: 1.5rem;
-}
-
 .fa-handshake {
     color: rgb(128, 0, 0, 1);
     font-size: 2rem;
+}
+
+.fa-star {
+    color: rgb(255, 215, 0, 1);
+    font-size: 1.2rem;
+}
+
+.fa-trophy {
+    color: rgb(140, 120, 83, 1);
+    font-size: 1.2rem;
 }
 
 
