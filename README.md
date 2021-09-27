@@ -31,7 +31,7 @@ A live version of website can be found
 
 ## Wireframes
 
-Please find my Wireframes for Desktop, Tablet and Mobile
+Please find my Wireframes
 [here](https://github.com/Bealby/ignite-theatre/blob/master/documentation/readme/ignite-theatre.pdf)
 ## Automated Testing
 
