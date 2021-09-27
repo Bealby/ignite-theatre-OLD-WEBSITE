@@ -29,7 +29,7 @@ A live version of website can be found
 
 ---
 
-### Skeleton
+## Wireframes
 
 Please find my Wireframes for Desktop, Tablet and Mobile
 [here](https://github.com/Bealby/ignite-theatre/blob/master/documentation/readme/ignite-theatre.pdf)
