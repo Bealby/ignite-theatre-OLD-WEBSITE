@@ -122,7 +122,7 @@ For deployment of Website please follow the below steps:
 - Click the following link [GitHub](https://github.com/) and
   and set up an account in GitHub.
 
-- Click the following GitHub repository [Frank Hurst](https://github.com/Bealby/frank-hurst)
+- Click the following GitHub repository [Ignite-Theatre](https://github.com/Bealby/ignite-theatre)
 
 - On the main page of the repository click the green button **Code**.
 
@@ -144,9 +144,5 @@ For deployment of Website please follow the below steps:
 
 ### Media
 
-- All content, photos and video - Lisa Fairfield
+- All content, photos and video - Ignite-Theatre
 
-### Code
-
-- Image Zoom Feature - Books:
-  [Image Zoom Feature](https://www.w3schools.com/howto/howto_css_modal_images.asp)
