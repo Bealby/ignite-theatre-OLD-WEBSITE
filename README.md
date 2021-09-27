@@ -29,6 +29,10 @@ A live version of website can be found
 
 ---
 
+### Skeleton
+
+Please find my Wireframes for Desktop, Tablet and Mobile
+[here](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/readme/ignite-theatre.pdf)
 ## Automated Testing
 
 [W3C](https://validator.w3.org/) - All HTML files with their data were directly
