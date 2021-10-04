@@ -770,7 +770,7 @@ main ul li a:hover {
 
 /*---Change height of box for better viewing on mb---*/
 
-@media (min-width: 767px) {
+@media (min-width: 1600px) {
     .text-box-inside-profile {
         background: rgb(0, 0, 0, 1);
         height: 55rem;
