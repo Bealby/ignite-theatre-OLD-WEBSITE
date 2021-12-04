@@ -127,6 +127,10 @@ main ul li a:hover {
   max-height: 25rem;
 }
 
+.gallery-horizontal-image {
+  max-width: 30rem;
+}
+
 /*---Navbar Overlay---*/
 
 .menu-icon {
