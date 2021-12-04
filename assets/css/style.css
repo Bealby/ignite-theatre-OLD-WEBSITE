@@ -297,6 +297,10 @@ main ul li a:hover {
   margin-bottom: 3rem;
 }
 
+.crew-mb-pb {
+  margin-bottom: 0rem;
+}
+
 /*---Font Awesome Icons---*/
 
 .fa-theater-masks {
@@ -775,5 +779,13 @@ main ul li a:hover {
 @media (min-width: 767px) {
   .gallery-mb {
     margin-bottom: 0rem;
+  }
+}
+
+/*---Margin-Bottom for gallery events for better viewing on mb---*/
+
+@media (min-width: 767px) {
+  .crew-mb-pb {
+    margin-bottom: 5rem;
   }
 }
