@@ -124,11 +124,7 @@ main ul li a:hover {
 }
 
 .gallery-vertical-image {
-  max-height: 25rem;
-}
-
-.gallery-horizontal-image {
-  max-width: 30rem;
+  max-height: 20rem;
 }
 
 /*---Navbar Overlay---*/
