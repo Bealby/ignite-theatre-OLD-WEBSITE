@@ -123,6 +123,10 @@ main ul li a:hover {
   max-height: 70%;
 }
 
+.gallery-vertical-image {
+  max-height: 25rem;
+}
+
 /*---Navbar Overlay---*/
 
 .menu-icon {
