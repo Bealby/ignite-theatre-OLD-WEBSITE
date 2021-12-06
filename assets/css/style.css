@@ -736,7 +736,7 @@ main ul li a:hover {
 
 @media (min-width: 1200px) {
   main {
-    height: 6300px;
+    height: 7100px;
   }
 }
 
@@ -744,7 +744,7 @@ main ul li a:hover {
 
 @media (min-width: 1200px) {
   main nav:after {
-    height: 12900px;
+    height: 14530px;
   }
 }
 
