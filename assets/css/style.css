@@ -617,7 +617,7 @@ main ul li a:hover {
 
 /*---Nav Home link positioning for sm/md/lg for better alignment---*/
 
-@media (min-width: 2200px) {
+@media (min-width: 2007px) {
   .nav-cast {
     top: 76px;
     transform: rotate(9deg);
@@ -626,7 +626,7 @@ main ul li a:hover {
 
 /*---Nav Tickets link positioning for sm/md/lg for better alignment---*/
 
-@media (min-width: 2200px) {
+@media (min-width: 2007px) {
   .info {
     top: 76px;
     transform: rotate(-9deg);
