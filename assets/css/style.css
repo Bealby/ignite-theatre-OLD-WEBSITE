@@ -566,6 +566,7 @@ main ul li a:hover {
 
 .murray-bealby:hover {
   color: rgb(128, 0, 0, 1);
+  text-decoration: none;
 }
 
 @-webkit-keyframes zoom {
