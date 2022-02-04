@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Ignite Theatre">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icon//favicon-16x16.png">
+    <link rel="manifest" href="/assets/icon//site.webmanifest">
+    <title>Ignite Theatre</title>
+</head>
+
+<body>
+    <div class="container-fluid pl-0 pr-0">
+        <main>
+            <!---Mobile Toggle-->
+            <div class="container-fluid d-xl-none mt-4 mb-4">
+                <div class="row menu-icon header-logo-sm text-center">
+                    <div class="col">
+                        <a href="index.html"><img src="assets/images/logo.png" class="img-fluid" alt="Logo"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid d-xl-none">
+                <div class="row menu-icon text-center">
+                    <div class="col"> <span onclick="openMenu()"><i class="fas fa-bars"></i></span> </div>
+                </div>
+            </div>
+            <div class="menu-container" id="navbar"> <span class="closebtn" onclick="closeMenu()">&times;</span>
+                <div class="menu-content"> <a href="index.html" class="text-uppercase">About</a> <a href="cast.html"
+                        class="text-uppercase">Cast</a> <a href="info.html" class="text-uppercase">Info/ Past Shows</a>
+                    <a href="gallery.html" class="text-uppercase">Gallery</a>
+                </div>
+            </div>
+            <!---Navbar-->
+            <nav class="d-none d-xl-block">
+                <ul>
+                    <li> <a class="nav-about" href="index.html">About</a> </li>
+                    <li> <a class="nav-cast" href="cast.html">Cast</a> </li>
+                    <li>
+                        <a class="header-logo" href="index.html"> <img src="assets/images/logo.png" alt="Logo" /> </a>
+                    </li>
+                    <li> <a class="info" href="info.html">Info/ Past Shows</a> </li>
+                    <li> <a class="nav-gallery" href="gallery.html">Gallery</a> </li>
+                </ul>
+            </nav>
+            <!---Block Container-->
+            <div class="container-fluid d-none d-xl-block">
+                <div class="row block-container">
+                    <div class="col-6"></div>
+                </div>
+            </div>
+            <!---Main Content-->
+            <section class="container-fluid pl-0 pr-0 mt-3">
+                <div class="row text-box-outside">
+                    <div class="mb-4 mx-auto">
+                        <a href="info.html#past_shows" class="content-h murray-bealby"><i
+                                class="fas fa-chevron-left"></i>&ensp;Past Shows&ensp;</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6 text-center mt-4 mb-4 pr-0 pl-0"> <img src="assets/images/wtw.png"
+                                class="img-fluid poster myImg" alt="Wind and the Willows - Poster">
+                            <!-- Modal -->
+                            <div id="myModal" class="modal"> <span class="close">&times;</span> <img
+                                    class="modal-content" id="img01" />
+                                <div id="caption"></div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="row text-box-inside text-margin mt-5 mb-0">
+                                <div class="col-12 pl-4 pt-2 pr-4 pb-0">
+                                    <p class="content-h mb-4 text-uppercase pb-3">
+                                        <i class="fas fa-handshake"></i>&emsp;Supporters
+                                    </p>
+                                    <div class="row pb-5">
+                                        <div class="col-sm-12 col-md-6 text-center">
+                                            <img class="supporters-images" src="assets/images/sponsors/NF21.png"
+                                                alt="NF21" />
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 text-center">
+                                            <img class="supporters-images ntc-padding"
+                                                src="assets/images/sponsors/NTC.png" alt="NTC" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!---Main Content-->
+            <!---Main Content-->
+            <section class="container-fluid pl-0 pr-0 mt-3">
+                <div class="row text-box-outside mb-0 pb-0">
+                    <div class="col">
+                        <div class="text-box-inside pl-4 pt-4 pr-4 pb-4 text-margin">
+                            <p class="content-h2 mb-0 text-uppercase">Wind and the Willows</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-box-outside mb-0">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 mt-5 mb-0">
+                                <div class="text-box-inside text-margin pl-4 pt-4 pr-4 pb-0">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p class="content-h mb-5 text-uppercase"><i
+                                                    class="fas fa-users"></i>&emsp;Cast</p>
+                                            <p class="content-p my-b"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>TOAD</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Simon Fox</i></p>
+                                            <p class="content-p my-b"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>BADGER</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Trevor Scales</i></p>
+                                            <p class="content-p my-b"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>MOLE</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Lewis Reid</i></p>
+                                            <p class="content-p my-b"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>RAT</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Jon Terry</i></p>
+                                            <p class="content-p my-b">
+                                                <i class="fas fa-circle"></i>&emsp;
+                                                <strong>
+                                                    DRIVER, WEASEL, <br />
+                                                    &emsp;&ensp;HEDGEHOG
+                                                </strong>
+                                            </p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>David Hallett</i></p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p class="content-h crew-mb-pb text-uppercase"></p>
+                                            <p class="content-p my-b">
+                                                <i class="fas fa-circle"></i>&emsp;
+                                                <strong>
+                                                    CHIEF WEASEL, <br />
+                                                    &emsp;&ensp;BARGE WOMAN
+                                                </strong>
+                                            </p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Helena Jevons</i></p>
+                                            <p class="content-p my-b">
+                                                <i class="fas fa-circle"></i>&emsp;
+                                                <strong>
+                                                    ALFRED, AUNT, RABBIT<br />
+                                                    &emsp;&ensp;MOUSE, BERTIE
+                                                </strong>
+                                            </p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Hana Vincent</i></p>
+                                            <p class="content-p my-b"><i class="fas fa-circle"></i>&emsp;<strong>GYPSY/
+                                                    DAUGHTER</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Lianne Fox</i></p>
+                                            <p class="content-p my-b">
+                                                <i class="fas fa-circle"></i>&emsp;
+                                                <strong>
+                                                    WATER RAT, ELVIRA, <br />
+                                                    &emsp;&ensp;FURRY CREATURES
+                                                </strong>
+                                            </p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Lisa Fairfield</i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-12 mt-5 mb-0">
+                                <div class="text-box-inside text-margin pl-4 pt-4 pr-4 pb-0">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p class="content-h mb-5 text-uppercase"><i
+                                                    class="fas fa-video"></i>&emsp;Crew</p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Founder/ Producer</strong>
+                                            </p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Lisa Fairfield</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Director</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Lisa and well, everyone
+                                                    really!</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Acting Mentor</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Matt Haynes</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Stage Manager</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Jazmin Field</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Lighting</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Clifford Dowding</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Props</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Simon - Boat & Car</i></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Lisa - Cart, Train, Masks</i></p>
+                                            <p class="content-p my-b">&emsp;&emsp;<i>Hedgehogs</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Soundscaping</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Xanthe Gresham Knight</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Seamstresses</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Sheena Bealby</i></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Jan Newbury</i></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Rose McIntosh</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Poster Design & Front of
+                                                    House</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Ravi Persaud</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Fight Choreographer</strong>
+                                            </p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Tom Jordan - Action Emporium</i>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p class="content-h crew-mb-pb text-uppercase"></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Signs and help with
+                                                    masks</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>SCDA Youth Group</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Art work for poster</strong>
+                                            </p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Ian Rolland-Sanders</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>FB & Instagram
+                                                    Make-up</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Panos Christofi</i></p>
+                                            <p class="content-p my-b">&emsp;&emsp;<i>"PanosDoesMakeup"</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Animal Whiskers</strong></p>
+                                            <p class="content-p my-b">
+                                                &emsp;-&emsp;<a href="hhttps://littlebuttondiaries.com/contact-/"
+                                                    class="murray-bealby" target="_blank"><i>Tia</i></a>
+                                            </p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Daisies</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Nit and Natter</i></p>
+                                            <p class="content-p my-b">&emsp;&emsp;<i>(Hillcrest Mondays 2-4pm)</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Bench and Stumps</strong>
+                                            </p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Hillcrest Wood Creatives</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Help with flyers</strong>
+                                            </p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Helena Jevons</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Barman</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Chris Chaplin</i></p>
+                                            <p class="content-p-profile my-b text-uppercase"><i
+                                                    class="fas fa-circle"></i>&emsp;<strong>Support</strong></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Sheena & Alan Bealby</i></p>
+                                            <p class="content-p my-b">&emsp;-&emsp;<i>Rose McIntosh</i></p>
+                                            <p class="content-p my-b"><i
+                                                    class="fas fa-globe-europe"></i>&emsp;<strong>WEBSITE</strong></p>
+                                            <p class="content-p my-b">
+                                                &emsp;-&emsp;<a href="https://murraybealby.com/" class="murray-bealby"
+                                                    target="_blank"><i>Murray Bealby</i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="row text-margin mt-5 mb-4">
+                                    <div class="col text-box-inside text-center pl-4 pt-4 pr-4 pb-0">
+                                        <p class="content-h-bio text-uppercase"><i
+                                                class="fas fa-user"></i>&emsp;Biographies</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-4 mb-5">
+                                <div class="row text-margin mt-4 mb-0">
+                                    <div class="text-box-inside-profile text-center pl-4 pt-4 pr-4 pb-0">
+                                        <img src="assets/images/ww/simon_fox.png"
+                                            class="img-fluid profile mb-5 mt-5 myImg" alt="Profile - Simon Fox" />
+                                        <!-- Modal -->
+                                        <div id="myModal" class="modal">
+                                            <span class="close">&times;</span> <img class="modal-content" id="img01" />
+                                            <div id="caption"></div>
+                                        </div>
+                                        <p class="content-h-bio text-uppercase mb-4">Simon Fox</p>
+                                        <p class="content-p-profile pr-3" id="overflowTest">
+                                            Since first ‘treading the boards’ at the age of 45 in 2008 I have played
+                                            principle roles in theatrical productions for; Qingdao Int’l Drama Group,
+                                            Academy of Creative Training, Sky Blue
+                                            Theatre-British Theatre Challenge, Printers Playhouse, Seaford Little
+                                            Theatre and Seaford Musical Theatre
+                                            <br />
+                                            <br />
+                                            I am delighted to have been invited by Ignite Theatre to join them for Wind
+                                            in the willows and to get acquainted with my inner Toad!
+                                            <br />
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-4 mb-5">
+                                <div class="row text-margin mt-4 mb-0">
+                                    <div class="text-box-inside-profile text-center pl-4 pt-4 pr-4 pb-0">
+                                        <img src="assets/images/ww/trevor_scales.png"
+                                            class="img-fluid profile mb-5 mt-5 myImg" alt="Profile - Trevor Scales" />
+                                        <!-- Modal -->
+                                        <div id="myModal" class="modal">
+                                            <span class="close">&times;</span> <img class="modal-content" id="img01" />
+                                            <div id="caption"></div>
+                                        </div>
+                                        <p class="content-h-bio text-uppercase mb-4">Trevor Scales</p>
+                                        <p class="content-p-profile pr-3" id="overflowTest">
+                                            Trevor was classically trained at East 15 Acting School - a major proponent
+                                            of Stanislavski and directly in the lineage of the ground breaking Theatre
+                                            work of Joan Littlewood.
+                                            <br />
+                                            <br />
+                                            He was also very fortunate to have been personally mentored by the legendary
+                                            Theatre Director Simone Vause , to whom he is forever indebted for her
+                                            tireless encouragement and intensive
+                                            training.
+                                            <br />
+                                            <br />
+                                            Trevor has performed in a large number of plays in London, Edinburgh and
+                                            Brighton Fringe Festivals cast as a wide range of very differing characters.
+                                            <br />
+                                            <br />
+                                            He especially happy and proud to be an original Cast Member of Brighton’s
+                                            Pop Heart Productions for whom he has performed for twice in ‘ Decade 20 ‘
+                                            and more recently the much acclaimed ‘ Blue
+                                            Sky Thinking’ in Brighton Fringe Festival.
+                                            <br />
+                                            <br />
+                                            Trevor is very happy to be in Ignite Theatre's second production following
+                                            on from the success of 'Memory of Water' as Frank.
+                                            <br />
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-4 mb-5">
+                                <div class="row text-margin mt-4 mb-0">
+                                    <div class="text-box-inside-profile text-center pl-4 pt-4 pr-4 pb-0">
+                                        <img src="assets/images/ww/lewis_reid.png"
+                                            class="img-fluid profile mb-5 mt-5 myImg" alt="Profile - Lewis Reid" />
+                                        <!-- Modal -->
+                                        <div id="myModal" class="modal">
+                                            <span class="close">&times;</span> <img class="modal-content" id="img01" />
+                                            <div id="caption"></div>
+                                        </div>
+                                        <p class="content-h-bio text-uppercase mb-4">Lewis Reid</p>
+                                        <p class="content-p-profile pr-3" id="overflowTest">
+                                            BA Honours Theatre and Visual Arts - University of Brighton 2004
+                                            <br />
+                                            <br />
+                                            Theatre credits include: <br />
+                                            Who Get’s the Cat? - Bryteye productions 2021 <br />
+                                            Night of glass -Zion dance company 2018 <br />
+                                            What’s my first line? - Baby Beach productions 2018 <br />
+                                            Barbara Cartland, in the pink - Leaping Hare productions
+                                            2015&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <br />
+                                            Ridley’s Prospects - Naughty Little Geezer productions 2017
+                                            <br />
+                                            <br />
+                                            Television credits: <br />
+                                            Brighton bomber- channel 4-2003 <br />
+                                            Lewis- ITV - 2006 <br />
+                                            The Virgin Queen - BBC - 2005
+                                            <br />
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-4 mb-5">
+                                <div class="row text-margin mt-4 mb-0">
+                                    <div class="text-box-inside-profile text-center pl-4 pt-4 pr-4 pb-0">
+                                        <img src="assets/images/ww/jon_terry.png"
+                                            class="img-fluid profile mb-5 mt-5 myImg" alt="Profile - Jonathan Terry" />
+                                        <!-- Modal -->
+                                        <div id="myModal" class="modal">
+                                            <span class="close">&times;</span> <img class="modal-content" id="img01" />
+                                            <div id="caption"></div>
+                                        </div>
+                                        <p class="content-h-bio text-uppercase mb-4">Jon Terry</p>
+                                        <p class="content-p-profile pr-3" id="overflowTest">
+                                            Jon has been a theatre actor for many years and has appeared in numerous
+                                            productions including Waiting for Godot, The 39 Steps and many Alan
+                                            Ayckbourn productions.
+                                            <br />
+                                            <br />
+                                            Following lockdown Jon is planning to once again make acting his main focus
+                                            and has a number of exciting projects lined up.
+                                            <br />
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-4 mb-5">
+                                <div class="row text-margin mt-4 mb-0">
+                                    <div class="text-box-inside-profile text-center pl-4 pt-4 pr-4 pb-0">
+                                        <img src="assets/images/ww/david_hallett.png"
+                                            class="img-fluid profile mb-5 mt-5 myImg" alt="Profile - David Hallett" />
+                                        <!-- Modal -->
+                                        <div id="myModal" class="modal">
+                                            <span class="close">&times;</span> <img class="modal-content" id="img01" />
+                                            <div id="caption"></div>
+                                        </div>
+                                        <p class="content-h-bio text-uppercase mb-4">David Hallett</p>
+                                        <p class="content-p-profile pr-3" id="overflowTest">
+                                            Following careers in teaching and I.T., David retired to the Sussex village
+                                            of Piddinghoe, and has since appeared in several productions in and around
+                                            Newhaven including Jarvis in MAD’s Chorus
+                                            of Disapproval, Albert in Lewes Little Theatre’s Accolade, Smith in Seaford
+                                            Little Theatre‘s Murder on the Nile, and in Synergy productions as Sir
+                                            Robert Morton in The Wilmslow Boy and Dr.
+                                            Chasuble in Importance of Being Ernest.
+                                            <br />
+                                            <br />
+                                            Most recently, he was pleased to have joined some of the Willows cast as Bob
+                                            in BrytEyes production of Who Gets the Cat. He has also written and directed
+                                            short, satirical pieces for the
+                                            Piddinghoe Players, performed in the village.
+                                            <br />
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-4 mb-5">
+                                <div class="row text-margin mt-4 mb-0">
+                                    <div class="text-box-inside-profile text-center pl-4 pt-4 pr-4 pb-0">
+                                        <img src="assets/images/ww/helena_jevons.png"
+                                            class="img-fluid profile mb-5 mt-5 myImg" alt="Profile - Helena Jevons" />
+                                        <!-- Modal -->
+                                        <div id="myModal" class="modal">
+                                            <span class="close">&times;</span> <img class="modal-content" id="img01" />
+                                            <div id="caption"></div>
+                                        </div>
+                                        <p class="content-h-bio text-uppercase mb-4">Helena Jevons</p>
+                                        <p class="content-p-profile pr-3" id="overflowTest">
+                                            Helena cut her acting teeth as a teenager playing small feminine roles like
+                                            Macbeth and Henry Higgins at an all girls’ grammar school. She was hard to
+                                            keep off stages after that although she
+                                            does like to occasionally play an actual woman - her favourite role ever was
+                                            madcap Bobbie in Neil Simon’s Last of the Red Hot Lovers.
+                                            <br />
+                                            <br />
+                                            She lives in seaford with her two young children, plays guitar pretty badly
+                                            and salsas pretty well.
+                                            <br />
+                                            <br />
+                                            This is her first acting gig post motherhood and she hopes she can remember
+                                            what she is doing.
+                                            <br />
+                                            <br />
+                                            To pay the bills she consults with local businesses from the University
+                                            Business Incubator at Sussex University at Falmer and builds websites for
+                                            local start ups.
+                                            <br />
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-4 mb-5">
+                                <div class="row text-margin mt-4 mb-0">
+                                    <div class="text-box-inside-profile text-center pl-4 pt-4 pr-4 pb-0">
+                                        <img src="assets/images/ww/hana_vincent.png"
+                                            class="img-fluid profile mb-5 mt-5 myImg" alt="Profile - Hana Vincent" />
+                                        <!-- Modal -->
+                                        <div id="myModal" class="modal">
+                                            <span class="close">&times;</span> <img class="modal-content" id="img01" />
+                                            <div id="caption"></div>
+                                        </div>
+                                        <p class="content-h-bio text-uppercase mb-4">Hana Vincent</p>
+                                        <p class="content-p-profile pr-3" id="overflowTest">
+                                            Hana Vincent spent her childhood and teens training and performing with
+                                            Seaford Youth Drama appearing in pop-up street theatre’s, summer and
+                                            Christmas shows and annually at the Eastbourne
+                                            Festival.
+                                            <br />
+                                            <br />
+                                            Since then she has appeared at the Seaford Little Theatre before a long
+                                            hiatus - over a decade - to focus on her career and family before deciding
+                                            to tip her toe back in with this Christmas
+                                            performance of The Wind in the Willows.
+                                            <br />
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-4 mb-5">
+                                <div class="row text-margin mt-4 mb-0">
+                                    <div class="text-box-inside-profile text-center pl-4 pt-4 pr-4 pb-0">
+                                        <img src="assets/images/ww/lianne_fox.png"
+                                            class="img-fluid profile mb-5 mt-5 myImg" alt="Profile - Lianne Fox" />
+                                        <!-- Modal -->
+                                        <div id="myModal" class="modal">
+                                            <span class="close">&times;</span> <img class="modal-content" id="img01" />
+                                            <div id="caption"></div>
+                                        </div>
+                                        <p class="content-h-bio text-uppercase mb-4">Lianne Fox</p>
+                                        <p class="content-p-profile pr-3" id="overflowTest">
+                                            Hi! My name is Lianne Fox. I'm 25 - grew up in China, moved 'back' to
+                                            England in 2013.
+                                            <br />
+                                            <br />
+                                            Been involved in theatre since I was a child, haven't been involved in
+                                            anything since a couple years before the pandemic, so very much looking
+                                            forward to presenting this production of The Wind
+                                            in the Willows!
+                                            <br />
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-4 mb-5">
+                                <div class="row text-margin mt-4 mb-0">
+                                    <div class="text-box-inside-profile text-center pl-4 pt-4 pr-4 pb-0">
+                                        <img src="assets/images/ww/lisa_fairfield.png"
+                                            class="img-fluid profile mb-5 mt-5 myImg" alt="Profile - Lisa Fairfield" />
+                                        <!-- Modal -->
+                                        <div id="myModal" class="modal">
+                                            <span class="close">&times;</span> <img class="modal-content" id="img01" />
+                                            <div id="caption"></div>
+                                        </div>
+                                        <p class="content-h-bio text-uppercase mb-4">Lisa Fairfield</p>
+                                        <p class="content-p-profile mb-4" id="overflowTest">
+                                            Lisa Bealby graduated in 2007 from the ACT (Academy Creative Training) in
+                                            Brighton.
+                                            <br />
+                                            <br />
+                                            Credits include: <br />
+                                            Theresa in Memory of Water (Ignite Theatre) <br />
+                                            Mary McGinty in 'Once a Catholic' (Brighton Pavillion) <br />
+                                            Cynthia in 'The Real Inspector Hound' (Lewes Theatre) <br />
+                                            'Tell someone who cares' (Sally Bennis Theatre, Brighton) <br />
+                                            'The Monologues' (White Room Theatre) <br />
+                                            'Bite Size Plays' ((Argus Angel Award, Best Brighton Fringe Event 2008)
+                                            which received 5 star reviews and a fringe first nomination at the Bedlam
+                                            Theatre, Edinburgh Festival 2009) <br />
+                                            Catherine Blake 'In Lambeth' (Stephen Joseph Theatre, Scarborough) <br />
+                                            Donna in 'Kvetch' (BMC, Brighton Festival) <br />
+                                            Una in Blackbird (The Marlborough, Brighton Festival)
+                                            <br />
+                                            <br />
+                                        </p>
+                                        <div class="text-center pb-4">
+                                            <a href="https://www.facebook.com/ignite.fringe" class="pr-2"
+                                                target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                            <a href="https://www.lisafairfield.com/" class="pl-2" target="_blank"><i
+                                                    class="fas fa-globe-europe"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-4 mb-5">
+                                <div class="row text-margin mt-4 mb-0">
+                                    <div class="text-box-inside-profile text-center pl-4 pt-4 pr-4 pb-0">
+                                        <img src="assets/images/ww/xanthe.png" class="img-fluid profile mb-5 mt-5 myImg"
+                                            alt="Profile - Xanthe" />
+                                        <!-- Modal -->
+                                        <div id="myModal" class="modal">
+                                            <span class="close">&times;</span> <img class="modal-content" id="img01" />
+                                            <div id="caption"></div>
+                                        </div>
+                                        <p class="content-h-bio text-uppercase mb-4"><i
+                                                class="fas fa-star"></i>&nbsp;Xanthe Gresham
+                                            Knight&nbsp;<i class="fas fa-star"></i></p>
+                                        <p class="content-p-profile mb-3" id="overflowTest">
+                                            BRONZE winner in the books for children 9-12 years old category, "Made for
+                                            Mums Awards 2021 "
+                                            <br />
+                                            <br />
+                                            <i>
+                                                'Eye-opening... a collection of treasured stories for everyone' <br />
+                                                @BookishwaytoPlay
+                                            </i>
+                                            <br />
+                                            <br />
+                                            <i>
+                                                'Stunning ... gloriously colourful and quirky' <br />
+                                                @DelilahandTilly
+                                            </i>
+                                            <br />
+                                            <br />
+                                        </p>
+                                        <div class="text-center pb-4">
+                                            <a href="https://www.facebook.com/xanthegreshamknight" class="pr-2"
+                                                target="_blank "><i class="fab fa-facebook-square"></i></a>
+                                            <a href="https://xanthegresham.co.uk/" class="pl-2" target="_blank "><i
+                                                    class="fas fa-globe-europe"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-4 mb-5">
+                                <div class="row text-margin mt-4 mb-0">
+                                    <div class="text-box-inside-profile text-center pl-4 pt-4 pr-4 pb-0">
+                                        <img src="assets/images/ww/matt_haynes.png"
+                                            class="img-fluid profile mb-5 mt-5 myImg"
+                                            alt="Profile - Clifford Dowding" />
+                                        <!-- Modal -->
+                                        <div id="myModal" class="modal">
+                                            <span class="close">&times;</span> <img class="modal-content" id="img01" />
+                                            <div id="caption"></div>
+                                        </div>
+                                        <p class="content-h-bio text-uppercase mb-4">Matt Haynes</p>
+                                        <p class="content-p-profile mb-4" id="overflowTest">
+                                            Matt Haynes has been an actor, theatre director and producer for over 30
+                                            years. He splits his time between the stage and teaching performing arts and
+                                            stage production.
+                                            <br />
+                                            <br />
+                                            He is currently a freelance acting coach and workshop practitioner using
+                                            Rudolph Laban's teachingings to enhance physicality and improve vocal
+                                            character.
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-4 mb-5">
+                                <div class="row text-margin mt-4 mb-0">
+                                    <div class="text-box-inside-profile text-center pl-4 pt-4 pr-4 pb-0">
+                                        <img src="assets/images/ww/jazmin_field.png"
+                                            class="img-fluid profile mb-5 mt-5 myImg"
+                                            alt="Profile - Clifford Dowding" />
+                                        <!-- Modal -->
+                                        <div id="myModal" class="modal">
+                                            <span class="close">&times;</span> <img class="modal-content" id="img01" />
+                                            <div id="caption"></div>
+                                        </div>
+                                        <p class="content-h-bio text-uppercase mb-4">Jazmin Field</p>
+                                        <p class="content-p-profile mb-4" id="overflowTest">
+                                            I'm a second year at Sussex University studying Drama, Theatre and
+                                            Performance.
+                                            <br />
+                                            <br />
+                                            I found my love for backstage theatre working as a Stage Manager for my
+                                            college productions. Since then I've worked with companies such as the
+                                            National Theatre and Children's Story Centre.
+                                            <br />
+                                            <br />
+                                            I'm always eager to hear about more theatre work, contact me on&emsp;<a
+                                                href="mailto:jazminfield@gmail.com?" class="murray-bealby"
+                                                target="_blank">jazminfield@gmail.com</a>
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-4 mb-5">
+                                <div class="row text-margin mt-4 mb-0">
+                                    <div class="text-box-inside-profile text-center pl-4 pt-4 pr-4 pb-0">
+                                        <img src="assets/images/ww/clifford_dowding.png"
+                                            class="img-fluid profile mb-5 mt-5 myImg"
+                                            alt="Profile - Clifford Dowding" />
+                                        <!-- Modal -->
+                                        <div id="myModal" class="modal">
+                                            <span class="close">&times;</span> <img class="modal-content" id="img01" />
+                                            <div id="caption"></div>
+                                        </div>
+                                        <p class="content-h-bio text-uppercase mb-4">Clifford Dowding</p>
+                                        <p class="content-p-profile mb-4" id="overflowTest">
+                                            Cliff is an accomplished sound and lighting engineer who has worked for many
+                                            theatres, venues, bands and performers covering a wide variety of genres.
+                                            These range from large pop shows and
+                                            festivals, to small intimate pub shows, dance, drama, street parties and
+                                            pantomimes.
+                                            <br />
+                                            <br />
+                                            He holds a BA Honours degree in Music Production and has experience with a
+                                            vast range of sound & lighting equipment. He has a passion for the arts and
+                                            formed his own company, MX Sound and
+                                            Lighting in 2019. Cliff is also a composer, musician and performer who has
+                                            released albums under his pseudonym The Mighty Xanthus.
+                                            <br />
+                                            <br />
+                                        </p>
+                                        <div class="text-center pb-4">
+                                            <a href="https://www.mxsoundandlighting.com" class="pl-2" target="_blank"><i
+                                                    class="fas fa-globe-europe"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Scroll to top of page arrow -->
+            <div class="page-top-button shadow-sm rounded-0 border border-black">
+                <a class="page-top-link d-flex h-100"> <i class="fas fa-chevron-up text-black mx-auto my-auto"></i> </a>
+            </div>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/scroll.js"></script>
+</body>
+
+</html>
