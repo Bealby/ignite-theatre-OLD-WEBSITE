@@ -315,6 +315,16 @@ main ul li a:hover {
 
 /*---Font Awesome Icons---*/
 
+.fa-book-open-reader{
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-crystal-ball {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
 .fa-theater-masks {
   color: rgb(128, 0, 0, 1);
   font-size: 2rem;
