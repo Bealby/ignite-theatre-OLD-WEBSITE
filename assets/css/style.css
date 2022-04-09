@@ -73,25 +73,37 @@ main ul li a:hover {
 
 /*---Navbar Links---*/
 
-.nav-about {
+.nav-home {
   top: 20px;
   transform: rotate(10deg);
 }
 
-.nav-cast {
+.nav-about {
   top: 54px;
+  transform: rotate(10deg);
+}
+
+.nav-cast {
+  top: 75px;
   transform: rotate(5deg);
 }
 
-.info {
-  top: 54px;
+.nav-shows {
+  top: 75px;
   transform: rotate(-5deg);
 }
 
+
 .nav-gallery {
+  top: 54px;
+  transform: rotate(-10deg);
+}
+
+.info {
   top: 20px;
   transform: rotate(-10deg);
 }
+
 
 /*---Logo( Poster---*/
 
@@ -615,8 +627,7 @@ main ul li a:hover {
 
 @media (min-width: 2200px) {
   .nav-about {
-    top: 17px;
-    transform: rotate(12deg);
+
   }
 }
 
@@ -624,8 +635,7 @@ main ul li a:hover {
 
 @media (min-width: 2007px) {
   .nav-cast {
-    top: 76px;
-    transform: rotate(9deg);
+
   }
 }
 
@@ -633,8 +643,7 @@ main ul li a:hover {
 
 @media (min-width: 2007px) {
   .info {
-    top: 76px;
-    transform: rotate(-9deg);
+
   }
 }
 
@@ -642,8 +651,7 @@ main ul li a:hover {
 
 @media (min-width: 2200px) {
   .nav-gallery {
-    top: 17px;
-    transform: rotate(-12deg);
+
   }
 }
 
