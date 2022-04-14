@@ -74,8 +74,8 @@ main ul li a:hover {
 /*---Navbar Links---*/
 
 .nav-home {
-  top: 10px;
-  transform: rotate(10deg);
+  top: 0px;
+  transform: rotate(15deg);
 }
 
 .nav-about {
@@ -100,8 +100,8 @@ main ul li a:hover {
 }
 
 .info {
-  top: 10px;
-  transform: rotate(-10deg);
+  top: 0px;
+  transform: rotate(-15deg);
 }
 
 
