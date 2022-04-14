@@ -84,13 +84,13 @@ main ul li a:hover {
 }
 
 .nav-cast {
-  top: 75px;
-  transform: rotate(5deg);
+  top: 85px;
+  transform: rotate(8deg);
 }
 
 .nav-shows {
-  top: 75px;
-  transform: rotate(-5deg);
+  top: 85px;
+  transform: rotate(-8deg);
 }
 
 
