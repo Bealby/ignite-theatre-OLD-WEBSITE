@@ -105,11 +105,11 @@ main ul li a:hover {
 }
 
 
-/*---Logo( Poster---*/
+/*---Logo/ Poster---*/
 
 .header-logo {
-  top: -1px;
-  left: 0;
+  top: 33px;
+  left: -25;
   right: 0;
   position: absolute;
 }
