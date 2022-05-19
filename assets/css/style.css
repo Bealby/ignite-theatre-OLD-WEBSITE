@@ -524,8 +524,8 @@ main ul li a:hover {
 }
 
 .supporters-images {
-    max-width: 65%;
-    max-height: 90%;
+    max-width: 70%;
+    max-height: auto;
 }
 
 /* Modal Content (image) */
