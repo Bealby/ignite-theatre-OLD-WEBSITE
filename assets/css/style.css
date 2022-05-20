@@ -127,7 +127,7 @@ main ul li a:hover {
 }
 
 .poster {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .profile {
@@ -801,4 +801,12 @@ main ul li a:hover {
   .crew-mb-pb {
     margin-bottom: 5rem;
   }
+}
+
+/*---Margin-Bottom for gallery events for better viewing on mb---*/
+
+@media (min-width: 767px) {
+.poster {
+  max-width: 70%;
+}
 }
