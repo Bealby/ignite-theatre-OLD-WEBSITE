@@ -127,7 +127,7 @@ main ul li a:hover {
 }
 
 .poster {
-  max-width: 70%;
+  max-width: 84%;
 }
 
 .profile {
@@ -807,6 +807,6 @@ main ul li a:hover {
 
 @media (min-width: 767px) {
 .poster {
-  min-width: 100%;
+  min-width: 90%;
 }
 }
