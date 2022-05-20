@@ -803,10 +803,10 @@ main ul li a:hover {
   }
 }
 
-/*---Margin-Bottom for gallery events for better viewing on mb---*/
+/*---Poster reduce for bette viewing mb---*/
 
 @media (min-width: 767px) {
 .poster {
-  max-width: 70%;
+  min-width: 70%;
 }
 }
