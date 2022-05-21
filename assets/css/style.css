@@ -134,6 +134,10 @@ main ul li a:hover {
   max-width: 100%;
 }
 
+.east-england{
+  max-width: 100%;
+}
+
 .profile {
   max-width: 80%;
   max-height: 70%;
@@ -812,5 +816,19 @@ main ul li a:hover {
 @media (min-width: 767px) {
 .poster {
   min-width: 90%;
+}
+}
+
+/*---Poster reduce for bette viewing mb---*/
+
+@media (min-width: 767px) {
+.east-england{
+  max-width: 53%;
+}
+}
+
+@media (min-width: 767px) {
+.east-england-margin{
+text-align: left;
 }
 }
