@@ -832,3 +832,9 @@ main ul li a:hover {
 text-align: left;
 }
 }
+
+@media (min-width: 280px) {
+.content-p {
+    margin-right: 20px;
+}
+}
