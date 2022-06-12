@@ -127,11 +127,11 @@ main ul li a:hover {
 }
 
 .poster {
-  max-width: 84%;
+  width: 300px;
 }
 
 .arts-council{
-  max-width: 100%;
+  width: 350px;
 }
 
 .east-england{
@@ -815,7 +815,7 @@ main ul li a:hover {
 
 @media (min-width: 767px) {
 .poster {
-  min-width: 90%;
+  width: 600px;
 }
 }
 
@@ -853,8 +853,8 @@ text-align: left;
 
 /*---max-width and MR for better viewing on galaxy fold---*/
 
-@media (min-width: 280px) {
+@media (max-width: 280px) {
 .poster {
-    max-width: 50%;
-    margin-right: 3rem;
+    max-width: 60%;
+    margin-right: 1rem;
 }}
