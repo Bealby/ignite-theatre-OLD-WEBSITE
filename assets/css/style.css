@@ -318,7 +318,7 @@ main ul li a:hover {
 }
 
 #header-align{
-  text-align: left;
+  text-align: center;
 }
 
 /*---Font Awesome Icons---*/
@@ -860,6 +860,6 @@ text-align: left;
 
 @media (max-width: 767px) {
 #header-align{
-  text-align: center;
+  text-align: left;
 }
 }
