@@ -250,6 +250,14 @@ main ul li a:hover {
   color: rgb(181, 189, 191, 1);
 }
 
+.content-p-email {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(181, 189, 191, 1);
+}
+
 .content-p-blue {
   font-family: "Lato", sans-serif;
   font-size: 1.1rem;
@@ -731,6 +739,16 @@ main ul li a:hover {
   .content-p {
     font-family: "Lato", sans-serif;
     font-size: 1rem;
+    font-weight: 700;
+    text-align: justify;
+    color: rgb(181, 189, 191, 1);
+  }
+}
+
+@media (min-width: 767px) {
+  .content-p-email {
+    font-family: "Lato", sans-serif;
+    font-size: 0.8rem;
     font-weight: 700;
     text-align: justify;
     color: rgb(181, 189, 191, 1);
