@@ -338,6 +338,10 @@ main ul li a:hover {
   text-align: center;
 }
 
+.ticket-source-margin{
+  margin-top:1rem;
+}
+
 /*---Font Awesome Icons---*/
 
 .fa-book-open-reader{
@@ -560,6 +564,14 @@ main ul li a:hover {
 
 .eventbrite-logo {
   max-width: 279px;
+}
+
+.ticket-source{
+  max-width: 100px;
+}
+
+.ticket-source-2{
+  max-width: 180px;
 }
 
 .supporters-images {
@@ -888,5 +900,11 @@ text-align: left;
 @media (max-width: 767px) {
 #header-align{
   text-align: left;
+}
+}
+
+@media (min-width: 767px) {
+.ticket-source-margin{
+  margin-top:0.4rem;
 }
 }
