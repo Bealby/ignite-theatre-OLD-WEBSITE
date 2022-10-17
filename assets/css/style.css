@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Pacifico&family=Rammetto+One&display=swap");
+
 body {
   position: relative;
   min-height: calc(100vh);
@@ -340,6 +341,16 @@ main ul li a:hover {
 /*---Font Awesome Icons---*/
 
 .fa-book-open-reader{
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-book-open{  
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-masks-theater{  
   color: rgb(128, 0, 0, 1);
   font-size: 2rem;
 }
