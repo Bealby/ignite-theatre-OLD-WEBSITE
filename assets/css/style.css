@@ -313,6 +313,12 @@ main ul li a:hover {
 
 /*---Margin/ Padding---*/
 
+iframe {
+    display: block;
+    border-style:none;
+    margin: 0 auto;
+}
+
 {
   margin-right: 0.5rem;
   margin-left: 0.5rem;
@@ -492,6 +498,11 @@ main ul li a:hover {
 /*-----Text-Overflow-----*/
 
 #overflowTest {
+  overflow-y: auto;
+  max-height: 30rem;
+}
+
+#overflowTest2 {
   overflow-y: auto;
   max-height: 30rem;
 }
