@@ -692,38 +692,6 @@ iframe {
   cursor: pointer;
 }
 
-/*---Nav About link positioning for sm/md/lg for better alignment---*/
-
-@media (min-width: 2200px) {
-  .nav-about {
-
-  }
-}
-
-/*---Nav Home link positioning for sm/md/lg for better alignment---*/
-
-@media (min-width: 2007px) {
-  .nav-cast {
-
-  }
-}
-
-/*---Nav Tickets link positioning for sm/md/lg for better alignment---*/
-
-@media (min-width: 2007px) {
-  .info {
-
-  }
-}
-
-/*---Nav Gallery link positioning for sm/md/lg for better alignment---*/
-
-@media (min-width: 2200px) {
-  .nav-gallery {
-
-  }
-}
-
 /*---Reduce M/P for text box for sm devices for better layout/ Reading---*/
 
 @media (min-width: 767px) {
