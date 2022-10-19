@@ -822,7 +822,7 @@ iframe {
 @media (min-width: 767px) {
   #overflowTest2 {
     overflow-y: auto;
-    max-height: 15rem;
+    max-height: 20rem;
   }
 }
 
