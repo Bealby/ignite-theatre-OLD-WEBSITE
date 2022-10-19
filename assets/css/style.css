@@ -255,7 +255,7 @@ main ul li a:hover {
   font-family: "Lato", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   color: rgb(181, 189, 191, 1);
 }
 
@@ -752,6 +752,14 @@ iframe {
     font-weight: 700;
     text-align: justify;
     color: rgb(181, 189, 191, 1);
+  }
+}
+
+/*---text align left for mb for better layout---*/
+
+@media (min-width: 767px) {
+  .content-p2 {
+    text-align: center;
   }
 }
 
