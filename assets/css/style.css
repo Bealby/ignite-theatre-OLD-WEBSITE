@@ -817,6 +817,15 @@ iframe {
   }
 }
 
+/*---Increase max-height overflow for better viewing on mb---*/
+
+@media (min-width: 767px) {
+  #overflowTest2 {
+    overflow-y: auto;
+    max-height: 15rem;
+  }
+}
+
 /*---Margin-Bottom for gallery events for better viewing on mb---*/
 
 @media (min-width: 767px) {
