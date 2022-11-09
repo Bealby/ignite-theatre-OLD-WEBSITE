@@ -704,7 +704,7 @@ iframe {
   }
 }
 
-/*---Reduce MR ML for text content for better spacing and reading for sm---*/
+/*---Reduce MR ML for text content for better spacing and reading for sm about page---*/
 
 @media (min-width: 767px) {
   .text-margin {
